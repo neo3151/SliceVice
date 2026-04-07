@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "panel": 1,
+    "overlays": [
+      {
+        "text": "MAILSTORM - Episode 1:\\n- THE SHADOW DAY -",
+        "style": "narration",
+        "fontSize": 48,
+        "x": 512,
+        "y": 150
+      },
+      {
+        "text": "BRANCH 61: THE ZIGGURAT.\\n07:01 AM. THE AIR SMELLS LIKE\\nUNPAID BILLS AND DESPAIR.",
+        "style": "caption",
+        "fontSize": 32,
+        "x": 300,
+        "y": 850
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "panel": 2,
+    "overlays": [
+      {
+        "text": "SHADOW SEVERANCE!",
+        "style": "scream",
+        "fontSize": 64,
+        "x": 512,
+        "y": 450
+      },
+      {
+        "text": "INITIATION RITUAL: THE SHADOW\\nSEVERANCE. CIVILIAN EGO TERMINATED.\\nMETABOLIC DRIVE DETACHED.",
+        "style": "caption",
+        "fontSize": 28,
+        "x": 750,
+        "y": 150
+      },
+      {
+        "text": "I just severed your civilian ego,\\nkid. You don't have a life anymore.\\nYou just have a route.",
+        "style": "speech",
+        "fontSize": 32,
+        "x": 512,
+        "y": 800
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "panel": 3,
+    "overlays": [
+      {
+        "text": "STATIONARY\\nEVENT!",
+        "style": "scream",
+        "fontSize": 72,
+        "x": 512,
+        "y": 250
+      },
+      {
+        "text": "FAILURE TO FOLLOW!\\nYOU ARE STEALING CORPORATE\\nMOMENTUM, BAXTER!",
+        "style": "scream",
+        "fontSize": 40,
+        "x": 512,
+        "y": 700
+      },
+      {
+        "text": "ADMINISTRATIVE PUNISHMENT:\\nSTATIONARY EVENT PULSE.\\nGRAVITY FIELD: 10.5 Gs.",
+        "style": "caption",
+        "fontSize": 28,
+        "x": 250,
+        "y": 150
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "panel": 4,
+    "overlays": [
+      {
+        "text": "A NIXIE PHANTOM!\\nIT'S CRAWLING OUT OF\\nTHE UBBM SLUDGE!",
+        "style": "narration",
+        "fontSize": 36,
+        "x": 512,
+        "y": 150
+      },
+      {
+        "text": "OBJECT CLASS: NIXIE.\\nUNDELIVERABLE SPECTRUM DETECTED.\\nEVOLUTION: SLUDGE-MANIFEST.",
+        "style": "caption",
+        "fontSize": 28,
+        "x": 750,
+        "y": 850
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "panel": 5,
+    "overlays": [
+      {
+        "text": "SNAP!",
+        "style": "scream",
+        "fontSize": 96,
+        "x": 512,
+        "y": 512
+      },
+      {
+        "text": "TECHNIQUE: THE ANCHOR STRIKE.\\nSIZE-64 MANA BAND.\\nSONIC BLOOM REACHED.",
+        "style": "caption",
+        "fontSize": 32,
+        "x": 250,
+        "y": 150
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "panel": 6,
+    "overlays": [
+      {
+        "text": "Welcome to the Abyss, kid.\\nYour route starts in five minutes.",
+        "style": "speech",
+        "fontSize": 36,
+        "x": 512,
+        "y": 200
+      },
+      {
+        "text": "The Shift has only just begun.",
+        "style": "narration",
+        "fontSize": 42,
+        "x": 512,
+        "y": 850
+      },
+      {
+        "text": "SURVIVAL ATTAINED.\\nSTATUS: CCA (INITIATE).\\nREMAINING LIFE: 99%.",
+        "style": "caption",
+        "fontSize": 28,
+        "x": 750,
+        "y": 150
+      }
+    ]
+  }
+]

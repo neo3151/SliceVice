@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mailstorm - The Corporate Battle Manga</title>
+    <!-- Mermaid CDN for Roadmap Graphics -->
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true, theme: 'dark', fontFamily: 'Roboto Condensed' });
+      window.mermaid = mermaid;
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Environmental Audio -->
+    <div style="position: fixed; bottom: 10px; right: 10px; background: #111; padding: 10px; border: 1px solid #333; z-index: 1000; font-family: sans-serif; font-size: 12px; color: #888;">
+      <label>
+        <input type="checkbox" id="ambient-toggle"> Enable Liminal Ambience
+      </label>
+      <audio id="ambient-audio" src="/audio/abyssal_hum.wav" loop></audio>
+    </div>
+    <!-- Modal Container for Faction Data -->
+    <div id="modal-container"></div>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

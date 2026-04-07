@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "panel": 1,
+    "overlays": [
+      {
+        "text": "MAILSTORM\\nSeason 2: Episode 10\\n- The Initiate -",
+        "style": "narration",
+        "fontSize": 48,
+        "x": 512,
+        "y": 150
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "panel": 2,
+    "overlays": [
+      {
+        "text": "STATIONARY EVENT!",
+        "style": "scream",
+        "fontSize": 64,
+        "x": 512,
+        "y": 512
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "panel": 3,
+    "overlays": [
+      {
+        "text": "FAILURE TO FOLLOW!",
+        "style": "scream",
+        "fontSize": 72,
+        "x": 512,
+        "y": 300
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "panel": 4,
+    "overlays": [
+      {
+        "text": "THWIP!\\nBOOM!",
+        "style": "scream",
+        "fontSize": 80,
+        "x": 300,
+        "y": 300
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "panel": 5,
+    "overlays": [
+      {
+        "text": "EAT 130 DEGREES,\\nYOU TIN-CAN PARASITE!",
+        "style": "speech",
+        "fontSize": 42,
+        "x": 512,
+        "y": 200
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "panel": 6,
+    "overlays": [
+      {
+        "text": "8 & SKATE!",
+        "style": "narration",
+        "fontSize": 96,
+        "x": 512,
+        "y": 512
+      }
+    ]
+  }
+]

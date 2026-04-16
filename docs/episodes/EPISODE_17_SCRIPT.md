@@ -59,8 +59,22 @@ AXEL: (Caption) He puts the photograph back in his wallet with the careful preci
 AXEL: (Caption) I stay longer than I should. Sol orders pie. He insists I have a slice. The pie is too sweet and the crust is too thick, but I eat it because Sol is watching me eat it with the satisfied intensity of a man who hasn't fed another person in three years.
 AXEL: (Caption) The overhead speakers play "Do That to Me One More Time" by Captain & Tennille. Sol hums along absent-mindedly, his fork tracing patterns in the meringue. I catch myself almost smiling. Almost. The muscle memory for it is still there, rusted but functional.
 SOL: (Dialogue) "You should come back next week. I'm here every morning. Seven-thirty. Same booth."
-AXEL: (Dialogue) "I'll try."
-SOL: (Dialogue) "That's what Lenny used to say."
+**Panel 11**
+AXEL: (Caption) I walk out of the deli into the blinding Hollywood morning. The LeMans is parked where I left it. But the passenger door is open.
+AXEL: (Caption) Reya is sitting in the passenger seat. She looks exactly the same as she did at the Freedom Tower—leather jacket, grease on her chin, eyes that process the world like a schematic diagram. 
+REYA: (Dialogue) "Your transmission sounds better."
+AXEL: (Dialogue) "How did you find me?"
+REYA: (Dialogue) "I'm a Grid-Engineer. I can track the electromagnetic signature of your alternator from Hialeah. We need to talk."
+
+**Panel 12**
+AXEL: (Caption) I get in the driver's seat. The air between us is thick. I haven't seen her since she helped me extract my mother's memory tape.
+AXEL: (Dialogue) "Sol was talking about scrap metal disappearing. City buying it up."
+REYA: (Dialogue) "It's worse than that. Vance isn't licking his wounds. Vanguard is actively pre-positioning. They're buying up foreclosed property on the coastline in the Drowned District. Mass acquisitions. It doesn't make sense unless he knows an enormous influx of physical bodies is about to hit the shore, and he wants to own the nets they fall into."
+
+**Panel 13**
+AXEL: (Caption) I look out the windshield. The ocean is calm. But Reya's right. The math only works if Vance is preparing to harvest thousands of new, desperate souls.
+REYA: (Dialogue) "Something big is coming, Axel. The Straits are going to break open. We need to be ready."
+AXEL: (Caption) She gets out of the car and walks down A1A, blending into the crowd of retirees like she was never there. 
 
 ---
 

@@ -18,11 +18,12 @@ AXEL: (Caption) I drive past Crandon Park, past the golf course, past the turnof
 AXEL: (Caption) The lighthouse is ahead. A white conical tower against a sky that's more stars than sky. The beam sweeps overhead every thirty seconds—a slow, mechanical rotation. Light. Dark. Light. Dark. The rhythm of something that was designed to keep people from crashing.
 
 **Panel 04**
-AXEL: (Caption) I sit on the seawall. The Atlantic is ten feet below me—black, moving, alive with the sound of water organizing itself against rock. The wind smells like salt and the particular kind of nothing that exists only on the edge of a continent at one in the morning.
-AXEL: (Caption) I reach into my jacket pocket. The tape reel. A spool the size of my fist. Twenty minutes of magnetic oxide on Mylar—the only recording of my mother's voice, extracted from the Vanguard's servers at the Freedom Tower, sitting in my pocket for twenty-three days.
+AXEL: (Caption) I sit on the seawall. Cape Florida is the absolute edge of the Grid. The Vanguard infrastructure doesn't reach past the mangroves. 
+AXEL: (Caption) I look at the dashboard. My Nixie Timer has frozen into a sickly, solid green. The Time Credits aren't ticking down. I have a localized vacuum immunity. For the first time in my life, I can breathe without spending money.
+AXEL: (Caption) I reach into my jacket pocket. The tape reel. A spool the size of my fist. Twenty minutes of magnetic oxide on Mylar—the only recording of my mother's consciousness, extracted from the Vanguard's servers at the Freedom Tower, sitting in my pocket for twenty-three days.
 
 **Panel 05**
-AXEL: (Caption) I've been carrying it since the reformat. Twenty-three days. I haven't played it. I told myself I was waiting for the right moment. The truth is simpler: I'm afraid that what's on the tape will be exactly what I remember, and I'll have to feel everything I've been driving away from.
+AXEL: (Caption) I've been carrying it since the reformat. Twenty-three days. I haven't played it because I was afraid it would burn my Time Credits, and because I'm afraid that what's on the tape will be exactly what I remember.
 AXEL: (Caption) The lighthouse beam sweeps over me. Light. Dark.
 
 **Panel 06**

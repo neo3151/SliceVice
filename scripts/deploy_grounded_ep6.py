@@ -2,7 +2,7 @@ import shutil
 import os
 
 # Define source artifacts from brain
-brain_dir = "/home/neo/.gemini/antigravity/brain/e4783df4-30fa-415a-aaf9-143ae27e1d4e"
+brain_dir = "/home/neo/SliceVice/antigravity/brain/e4783df4-30fa-415a-aaf9-143ae27e1d4e"
 public_dir = "/home/neo/SliceVice/web/public/assets/EP6"
 
 os.makedirs(public_dir, exist_ok=True)

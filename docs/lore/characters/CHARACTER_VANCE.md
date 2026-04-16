@@ -6,12 +6,12 @@ tags:
   - antagonist
 ---
 
-# ANTAGONIST: DIRECTOR VANCE (HOA Vanguard)
-**ROLE:** CHIEF COMPLIANCE OFFICER
+# ANTAGONIST: DIRECTOR VANCE (The Vanguard Trust)
+**ROLE:** SENIOR VICE PRESIDENT OF COMPLIANCE
 
-- **The Philosophy:** "Liquidation through Cold." Vance believes the city of Miami isn't a place for people, but a dataset that needs to be "pruned" of high-risk debtors. He sees the 1980 Great Frost as a natural extension of his own compliance protocols.
-- **The Presence:** Vance is never seen outside of his **1980 Ford F-350 "Bullnose" Repo-Truck**. Despite its "White Pearl" paint job, it is coated in a permanent layer of freeway soot and salt spray. The hydraulic lift on the back is stained with the hydraulic fluid of a thousand repossessions.
-- **The Motivation:** He wants the "Grid-Tape Safe" to finalize the **Urban Foreclosure**. This would allow him to literally "rewrite" the municipal land-rights, erasing the Drowned Districts and the "scavenger" elements like they were a bad line of code.
-- **The Weaponry:** Paramilitary audit-trucks, high-output spotlights that can blind a driver at midnight, and "Foreclosure Drones" (which look like mechanical pink flamingos with thermal sensors).
-- **The Voice:** He speaks through a crackling, high-wattage PA system. It doesn't sound human; it sounds like the voice of a debt collection agency broadcast from the depths of hell.
-- **Relationship to Axel:** Vance sees Axel as a "Rounding Error." He's not angry that Axel is resisting; he's annoyed that the math won't close until the LeMans is in the crusher.
+- **The Philosophy:** "Liquidation through Liability." Vance believes human memory and life-force are not sacred, but rather highly volatile economic portfolios. He views existence itself as something that can be audited, extracted, and stored on magnetic tape.
+- **The Motivation:** He wants the "Grid Master-Tape"—a massive, high-density magnetic spool that holds the original terrain-logic for the 1988 Miami Land Reclamation Project. With it, he can permanently reformat the city geometry to favor corporate land grabs, drowning the off-grid sectors. He secures his power by maintaining foreclosure loops on vulnerable families, separating human archives into isolated data-vaults.
+- **The Presence:** Vance operates behind closed doors in the pristine, air-conditioned high-rises of "Condo Canyon," but his physical enforcers utilize a fleet of **1980 Ford F-350 "Bullnose" Repo-Trucks**. 
+- **The Weaponry:** Paramilitary repo-trucks, physical gravity alterations (Grievance Points), and "Grid-Hounds" (surveillance operatives tapping into the city's analog phone lines).
+- **The Voice:** Cold, calculated, and entirely sterilized of emotion. He speaks in the terrifyingly calm cadence of an insurance adjuster denying a life-saving claim.
+- **Relationship to Axel:** Vance holds the server-lease on Axel's mother's downloaded archive. He sees Axel as a "Toxic Asset." He's not angry that Axel is resisting; he views Axel's high-stress emotional adrenaline simply as a valuable commodity to bleed out until the engine completely explodes.

@@ -21,8 +21,9 @@ AXEL: (Caption) Dockery's yard. Chain-link fence, razor wire, a hand-painted sig
 HANK: (Dialogue) "Pontiac throttle body. Seventy-nine. Yeah, I got one—maybe. Row 14, past the Chryslers. If the iguanas haven't eaten the gasket, it's yours for forty."
 
 **Panel 05**
-AXEL: (Caption) Row 14. The cars are stacked three deep—Impalas, Novas, a Dodge Dart with a palm tree growing through the engine bay. The heat is suffocating. The metal radiates it back at you from every surface. I find the Pontiac wedged between a rusted El Camino and a Buick Electra that looks like it was parked here during the Kennedy administration.
-AXEL: (Caption) The throttle body is intact. The gasket is shot, but Elio can cut a new one. I pull it with a socket set that Hank lent me, my hands burning on every surface.
+AXEL: (Caption) Row 14 is a labyrinth. The heat is suffocating, radiating back at you from every rusted surface. I slide a cassette into the Walkman on my belt—a Mixtape Catalyst Reya built out of a Judas Priest bootleg. 
+AXEL: (Caption) I hit play. The spatial geometry between the rusted aisles imperceptibly bends, the heavy guitar distortion shifting the physical layout of the scrap metal just enough to reveal a narrow path. It guides me straight to a Pontiac wedged between a rusted El Camino and an ancient Buick Electra.
+AXEL: (Caption) The throttle body is intact. I pull it with a socket set that Hank lent me, my hands burning on every surface.
 
 **Panel 06**
 HANK: (Dialogue) "You notice anything about the yard lately?"

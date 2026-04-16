@@ -39,10 +39,8 @@ JEAN-PIERRE: (Dialogue) "Not dead. Redirected. The Mesh doesn't block their sign
 AXEL: (Caption) I hand him the envelope. He takes it without looking at it, slides it into his jacket, and produces two bottles of Prestige beer from under the pew. He opens them both with a lighter.
 
 **Panel 08**
-JEAN-PIERRE: (Dialogue) "You know what the difference is between a refugee and an immigrant?"
-AXEL: (Dialogue) "Paperwork?"
-JEAN-PIERRE: (Dialogue) "An immigrant chooses to leave. A refugee is chosen. We didn't decide to come to Miami. Miami was decided for us. And when we got here, nobody gave us credit. No ID. No status. The Cubans got refugee designation. Political asylum. We got called 'economic migrants' and put in detention."
-JEAN-PIERRE: (Dialogue) "So we built our own system. The Mesh. No Vanguard frequency. No corporate overhead. Just shortwave relays hidden in palm trees and church steeples, run by people who learned that if the grid won't include you, you build a grid that doesn't need their permission."
+JEAN-PIERRE: (Dialogue) "An immigrant chooses to leave. A refugee is chosen. When we got here, nobody gave us credit. The Cubans got asylum. We got called 'economic migrants' and were targeted for Vanguard foreclosure."
+JEAN-PIERRE: (Dialogue) "So we built our own system. The Mesh. It isn't just radio frequencies—the scrap copper wire physically insulates the neighborhood blocks from Vanguard's Soul Extractors. No corporate overhead. No souls defaulted. Just analog relays hidden in palm trees, maintaining our physical gravity so we don't get erased."
 
 **Panel 09**
 AXEL: (Caption) We sit on the church steps and drink beer as the sun drops behind the rooflines. The air smells like charcoal grills and frying plantain from the grocery two doors down. A radio inside the store plays Tabou Combo—Haitian compas. Brass and guitar pouring onto the sidewalk like something joyful that escaped from a locked room. I don't recognize the song, but the rhythm gets into my chest and stays there.

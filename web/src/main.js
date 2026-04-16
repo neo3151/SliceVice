@@ -63,14 +63,14 @@ function switchView(viewId) {
   document.body.classList.remove('glitch-flash')
   void document.body.offsetWidth
   document.body.classList.add('glitch-flash')
-  
+
   hubView.classList.remove('active'); hubView.classList.add('hidden');
   readerView.classList.remove('active'); readerView.classList.add('hidden');
   encyclopediaView.classList.remove('active'); encyclopediaView.classList.add('hidden');
   manualView.classList.remove('active'); manualView.classList.add('hidden');
   mapView.classList.remove('active'); mapView.classList.add('hidden');
-  if(archiveView) { archiveView.classList.remove('active'); archiveView.classList.add('hidden'); }
-  
+  if (archiveView) { archiveView.classList.remove('active'); archiveView.classList.add('hidden'); }
+
   document.querySelector('#' + viewId).classList.remove('hidden')
   document.querySelector('#' + viewId).classList.add('active')
 
@@ -97,6 +97,7 @@ document.querySelector('#nav-to-archives').addEventListener('click', () => switc
 document.querySelector('#nav-to-vol1').addEventListener('click', () => switchMenuScreen('menu-vol1-episodes'))
 document.querySelector('#nav-to-vol2').addEventListener('click', () => switchMenuScreen('menu-vol2-episodes'))
 document.querySelector('#nav-to-vol3').addEventListener('click', () => switchMenuScreen('menu-vol3-episodes'))
+document.querySelector('#nav-to-vol4').addEventListener('click', () => switchMenuScreen('menu-vol4-episodes'))
 
 document.querySelectorAll('.nav-back').forEach(btn => {
   btn.addEventListener('click', () => switchMenuScreen('menu-main'))
@@ -183,21 +184,21 @@ function setLoreContent(btnSelector, content, visualAsset = null) {
   document.querySelector(btnSelector).addEventListener('click', (e) => {
     document.querySelectorAll('.corp-nav-link').forEach(b => b.classList.remove('active'))
     e.target.classList.add('active')
-    
+
     // Use marked for premium rendering
     document.querySelector('#lore-content').innerHTML = marked.parse(content);
-    
+
     // Handle visual artifact pairing
     const visualContainer = document.querySelector('#visual-artifact-container');
     const visualImg = document.querySelector('#visual-artifact-img');
-    
+
     if (visualAsset) {
       visualImg.src = visualAsset;
       visualContainer.classList.remove('hidden');
     } else {
       visualContainer.classList.add('hidden');
     }
-    
+
     // Scroll to top
     document.querySelector('.corp-main-view').scrollTop = 0;
   })
@@ -541,8 +542,43 @@ const episodes = {
     { type: 'image', url: '/assets/ad_survival_mail_order_1776303713556.png', caption: '[COMMERCIAL BREAK: GRID-GHOST SURVIVAL SUPPLY] MAIL-ORDER FORM' },
     { type: 'image', url: '/assets/EP18/ep18_panel_09.png', caption: 'AXEL: (Caption) I rewind the tape. I play it again. The lighthouse beam sweeps. The sound rewrites something in my chest that I didn\'t know was still running code.' },
     { type: 'image', url: '/assets/EP18/ep18_panel_10.png', caption: 'AXEL: (Caption) Dawn comes slowly. Faint engine sounds from the Florida Straits. Boat engines, moving north. Something is coming. I drive back toward the mainland. The night is when the lost things need the most light.' },
+    { type: 'title', content: 'END OF TAPE. EJECT.' }
+  ],
+  ep19: [
+    { type: 'title', content: 'INITIALIZING CASSETTE: EPISODE 19 ("THE FIRST WAVE — APRIL 15, 1980")... // VOLUME 04: THE SURGE' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_01.png', caption: 'AXEL (CAPTION): Torrential Miami afternoon downpour. The ’78 LeMans is parked half-under a rusted tin overhang in Sector H.' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_02.png', caption: 'JEAN-PIERRE (CAPTION): "You’re lucky the salt didn’t eat through the coaxial. Vanguard\'s thermal ping would have lit you up on the Causeway."' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_03.png', caption: 'JEAN-PIERRE (CAPTION): "My receivers were screaming all night anyway. Channel 16. Coast Guard frequencies."' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_04.png', caption: 'JEAN-PIERRE (CAPTION): "Not Vanguard. Unfiltered marine engines. Hundreds of them. Coming straight north up the Straits."' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_05.png', caption: 'AXEL (CAPTION): "...I know. I heard them at the Lighthouse."' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_06.png', caption: 'AXEL (CAPTION): I rip the LeMans out of the mud of Sector H. The Vanguard wasn\'t just doing radio sweeps. They were drawing a net.' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_07.png', caption: 'AXEL (CAPTION): Calle Ocho in a torrential storm. The neon lights of Versailles reflect in massive puddles. Police cruisers are already moving to blockade points.' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_08.png', caption: 'AXEL: "Carmen. You need to lock this down. The Straits are flooded with—"' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_09.png', caption: 'DOÑA CARMEN: She doesn\'t blink. She racks a shell into her shotgun with the smooth, terrifying precision of an espresso machine. "I know."' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_10.png', caption: 'DOÑA CARMEN: "Vance is locking down the coast early. I need you to run these bypass-transmitters to the docks right now, or thousands walk straight into the nets."' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_11.png', caption: 'AXEL (CAPTION): The pitch-black docks. The Atlantic is churning. Over my dashboard, Coast Guard frequencies scream about hundreds of unregistered vessels.' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_12.png', caption: 'AXEL (CAPTION): A cigarette boat cuts through the rain. It\'s packed with exhausted, terrified refugees. They barely survived the ocean.' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_13.png', caption: 'AXEL (CAPTION): I hand down the heavy analog radios. "Keep these on. They jam Vanguard\'s trackers. Go dark and run north."' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_14.png', caption: 'AXEL (CAPTION): A mile down the beach, heavily armored corporate repo-trucks establish a perimeter. Director Vance, personally overseeing the nets.' },
+    { type: 'image', url: '/assets/EP19/ep19_panel_15.png', caption: 'AXEL (CAPTION): I slide back into the driver\'s seat. First gear. The boat vanishes into the dark fog. Let the Vanguard scan the shore. Tonight, they only catch the ghosts.' },
     { type: 'title', content: 'END OF TAPE. EJECT.' },
     { type: 'title', content: 'END OF VOLUME 03: THE IDLE ENGINE.' }
+  ],
+  ep20: [
+    { type: 'title', content: 'INITIALIZING CASSETTE: EPISODE 20 ("TENT CITY — MAY 5, 1980")... // VOLUME 04: THE SURGE' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_01.png', caption: 'AXEL: (CAPTION) May 5th. Three weeks since the Straits broke open. Forty thousand people have hit the beach, and the city ran out of rooms on day two.' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_02.png', caption: 'AXEL: (CAPTION) The Orange Bowl. Tents on the AstroTurf. And Vance’s extraction fleet idling at the gates, waiting for the stragglers to wander out of the municipal safe zone.' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_03.png', caption: 'JEAN-PIERRE: "The output array is primed. But it has to be deployed inside the stadium concourse. The concrete will amplify the analog bounce. It will cast a physical shadow over the north encampment. Four thousand people erased from Vance\'s thermal nets."' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_04.png', caption: 'AXEL: (CAPTION) The LeMans handles differently with two hundred pounds of analog Faraday coils bolted to the transmission hum. She doesn\'t glide anymore. She hits.', effect: 'speed-vibration' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_05.png', caption: 'AXEL: (CAPTION) Vance’s sweepers see the thermal anomaly coming. A massive, moving dead spot on their radar.' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_06.png', caption: 'JEAN-PIERRE: "Axel! The gravity spikes! Keep the RPMs above four thousand or the vacuum will stall the engine!"', effect: 'nitro-burn' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_07.png', caption: 'AXEL: (CAPTION) Third gear. The Grand Prix transmission rebuild holds tight. We breach the lower concourse. The smell of stale beer, sweat, and fear is suffocating.', effect: 'speed-vibration' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_08.png', caption: 'JEAN-PIERRE: "Transmitter active! The signal is looping!"' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_09.png', caption: 'AXEL: (CAPTION) The heavy copper frequency bounces off the stadium concrete. In an instant, four thousand human souls vanish from Vanguard\'s ledger.' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_10.png', caption: 'VANCE: "They built a ghost machine... Bring up the bulldozers. If we can\'t see them, we\'ll just level the building."' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_11.png', caption: 'AXEL: (CAPTION) We bought the North Encampment exactly one night of peace. By tomorrow, Vance will escalate. But tonight, the extraction stops.' },
+    { type: 'image', url: '/assets/EP20/ep20_panel_12.png', caption: 'AXEL: (CAPTION) I look at Jean-Pierre. He\'s already reviewing his schematics. We\'re going to need a bigger transmitter.' },
+    { type: 'title', content: 'END OF TAPE. EJECT.' }
   ]
 }
 
@@ -560,7 +596,7 @@ setInterval(() => {
   if (timer > 0) {
     timer--
     timerDisplay.textContent = formatTime(timer)
-    
+
     // Update Audio degradation every second
     audioEngine.updateMood(currentPage, timer);
 
@@ -584,16 +620,16 @@ function renderPage(index) {
   if (activePages.length === 0) return;
 
   const page = activePages[index]
-  
+
   // Update Audio Mood for the current page
   audioEngine.updateMood(index, timer);
 
-    if (page.type === 'title') {
-      app.innerHTML = `<h1 class="sys-message" style="text-align: center; margin-top: 20%; padding: 40px; color: #ffeb3b;">${page.content}</h1>`
-      tapeStatus.textContent = 'SEEKING...'
-    } else if (page.type === 'image') {
-      const isEP9 = activePages === episodes.ep9;
-      app.innerHTML = `
+  if (page.type === 'title') {
+    app.innerHTML = `<h1 class="sys-message" style="text-align: center; margin-top: 20%; padding: 40px; color: #ffeb3b;">${page.content}</h1>`
+    tapeStatus.textContent = 'SEEKING...'
+  } else if (page.type === 'image') {
+    const isEP9 = activePages === episodes.ep9;
+    app.innerHTML = `
         <div style="flex: 1; display:flex; justify-content: center; align-items: center; width: 100%; min-height: 0;" class="${page.effect || ''} ${isEP9 ? 'radioactive-fog' : ''}">
           <img src="${page.url}" class="comic-panel" />
           ${page.effect === 'nitro-burn' ? '<div class="motion-blur-overlay"></div>' : ''}
@@ -602,14 +638,14 @@ function renderPage(index) {
           ${page.caption}
         </div>
       `
-      tapeStatus.textContent = `PLAYING: TRK 0${index}`
-    }
+    tapeStatus.textContent = `PLAYING: TRK 0${index}`
   }
+}
 
 // Rewire routing to handle Episode swapping dynamically
 document.querySelector('#btn-play-ep1').addEventListener('click', () => {
   activePages = episodes.ep1;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep1');
   renderPage(0);
   switchView('reader-view')
@@ -617,7 +653,7 @@ document.querySelector('#btn-play-ep1').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep2').addEventListener('click', () => {
   activePages = episodes.ep2;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep2');
   renderPage(0);
   switchView('reader-view')
@@ -625,7 +661,7 @@ document.querySelector('#btn-play-ep2').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep3').addEventListener('click', () => {
   activePages = episodes.ep3;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep3');
   renderPage(0);
   switchView('reader-view')
@@ -633,7 +669,7 @@ document.querySelector('#btn-play-ep3').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep4').addEventListener('click', () => {
   activePages = episodes.ep4;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep4');
   renderPage(0);
   switchView('reader-view')
@@ -641,7 +677,7 @@ document.querySelector('#btn-play-ep4').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep5').addEventListener('click', () => {
   activePages = episodes.ep5;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep5');
   renderPage(0);
   switchView('reader-view')
@@ -649,7 +685,7 @@ document.querySelector('#btn-play-ep5').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep6').addEventListener('click', () => {
   activePages = episodes.ep6;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep6');
   renderPage(0);
   switchView('reader-view')
@@ -657,7 +693,7 @@ document.querySelector('#btn-play-ep6').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep7').addEventListener('click', () => {
   activePages = episodes.ep7;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep7');
   renderPage(0);
   switchView('reader-view')
@@ -665,7 +701,7 @@ document.querySelector('#btn-play-ep7').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep8').addEventListener('click', () => {
   activePages = episodes.ep8;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep8');
   renderPage(0);
   switchView('reader-view')
@@ -673,7 +709,7 @@ document.querySelector('#btn-play-ep8').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep9').addEventListener('click', () => {
   activePages = episodes.ep9;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep9');
   renderPage(0);
   switchView('reader-view')
@@ -681,7 +717,7 @@ document.querySelector('#btn-play-ep9').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep10').addEventListener('click', () => {
   activePages = episodes.ep10;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep10');
   renderPage(0);
   switchView('reader-view')
@@ -689,7 +725,7 @@ document.querySelector('#btn-play-ep10').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep11').addEventListener('click', () => {
   activePages = episodes.ep11;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep11');
   renderPage(0);
   switchView('reader-view')
@@ -697,7 +733,7 @@ document.querySelector('#btn-play-ep11').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep12').addEventListener('click', () => {
   activePages = episodes.ep12;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep12');
   renderPage(0);
   switchView('reader-view')
@@ -705,7 +741,7 @@ document.querySelector('#btn-play-ep12').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep13').addEventListener('click', () => {
   activePages = episodes.ep13;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep13');
   renderPage(0);
   switchView('reader-view')
@@ -713,7 +749,7 @@ document.querySelector('#btn-play-ep13').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep14').addEventListener('click', () => {
   activePages = episodes.ep14;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep14');
   renderPage(0);
   switchView('reader-view')
@@ -721,7 +757,7 @@ document.querySelector('#btn-play-ep14').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep15').addEventListener('click', () => {
   activePages = episodes.ep15;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep15');
   renderPage(0);
   switchView('reader-view')
@@ -729,7 +765,7 @@ document.querySelector('#btn-play-ep15').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep16').addEventListener('click', () => {
   activePages = episodes.ep16;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep16');
   renderPage(0);
   switchView('reader-view')
@@ -737,7 +773,7 @@ document.querySelector('#btn-play-ep16').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep17').addEventListener('click', () => {
   activePages = episodes.ep17;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep17');
   renderPage(0);
   switchView('reader-view')
@@ -745,8 +781,24 @@ document.querySelector('#btn-play-ep17').addEventListener('click', () => {
 
 document.querySelector('#btn-play-ep18').addEventListener('click', () => {
   activePages = episodes.ep18;
-  currentPage = 0; timer = 1799; 
+  currentPage = 0; timer = 1799;
   audioEngine.startEpisode('ep18');
+  renderPage(0);
+  switchView('reader-view')
+})
+
+document.querySelector('#btn-play-ep19').addEventListener('click', () => {
+  activePages = episodes.ep19;
+  currentPage = 0; timer = 1799;
+  audioEngine.startEpisode('ep19');
+  renderPage(0);
+  switchView('reader-view')
+})
+
+document.querySelector('#btn-play-ep20').addEventListener('click', () => {
+  activePages = episodes.ep20;
+  currentPage = 0; timer = 1799;
+  audioEngine.startEpisode('ep20');
   renderPage(0);
   switchView('reader-view')
 })
@@ -793,7 +845,7 @@ class AudioEngine {
   startEpisode(epId) {
     this.activeEpisode = epId;
     this.resetVolumes();
-    
+
     // Toggle Volume 2 Theme
     if (epId === 'ep7' || epId === 'ep8' || epId === 'ep9') {
       document.body.classList.add('theme-vol2');
@@ -807,35 +859,35 @@ class AudioEngine {
   }
 
   resetVolumes() {
-    Object.values(this.layers).forEach(a => { if(a) a.volume = 0; });
-    
+    Object.values(this.layers).forEach(a => { if (a) a.volume = 0; });
+
     if (this.activeEpisode === 'ep7') {
       this.layers.drone.volume = 0.6;
       this.layers.static.volume = 0; // Disabled as per user preference
-      this.layers.pulse.volume = 0.3; 
+      this.layers.pulse.volume = 0.3;
     } else if (this.activeEpisode === 'ep9') {
       this.layers.drone.volume = 0.4;
       this.layers.swamp.volume = 0.7;
     } else {
-      if(this.layers.base) this.layers.base.volume = 0.8;
+      if (this.layers.base) this.layers.base.volume = 0.8;
     }
   }
 
   playAll() {
     Object.values(this.layers).forEach(a => {
-      if(a) a.play().catch(e => console.log("Audio playback deferred:", e));
+      if (a) a.play().catch(e => console.log("Audio playback deferred:", e));
     });
   }
 
   pauseAll() {
-    Object.values(this.layers).forEach(a => { if(a) a.pause(); });
+    Object.values(this.layers).forEach(a => { if (a) a.pause(); });
   }
 
   setMute(isMuted) {
     this.isEnabled = !isMuted;
     if (this.isEnabled) this.playAll();
     else this.pauseAll();
-    
+
     // Save state to local storage if needed, but for now just live
   }
 
@@ -889,5 +941,5 @@ mapNodes.forEach(node => {
 })
 
 document.getElementById('close-map-modal').addEventListener('click', () => {
-    mapModal.style.display = 'none'
+  mapModal.style.display = 'none'
 })

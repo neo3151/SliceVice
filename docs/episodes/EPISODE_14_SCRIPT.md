@@ -29,12 +29,12 @@ AXEL: (Caption) Versailles. I've driven past it a thousand times. Never stopped.
 AXEL: (Caption) The ventanita. The walk-up window. Chrome frame, shoulder height, a counter worn smooth by ten thousand elbows. Behind the glass: a woman making cafecito with the focused precision of a chemist.
 
 **Panel 06**
-AXEL: (Caption) I order a café. She hands it through the window in a cup the size of a thimble. It's black, sweet enough to make my teeth ache, and strong enough to restart the LeMans' alternator. I drink it in two sips. I order another.
-AXEL: (Caption) The men at the ventanita glance at me. Anglo. Young. Out of place. They don't care. The ventanita is neutral ground. You can be anyone here as long as you drink your coffee standing up and don't interrupt the argument.
+AXEL: (Caption) I order a café. As she hands it through the window, the physical gravity around the counter suddenly doubles. My knees buckle. The heavy ceramic cup vibrates on the saucer. 
+AXEL: (Caption) A modified 1980 Ford F-350 Repo-Truck crawls past on 8th Street, the Vanguard Trust logo stamped on the door. The Nixie Timer on my dashboard across the street flares angry orange. Director Vance's sweepers. They bleed Grievance Points into the physical world just by existing in the zip code.
 
 **Panel 07**
-AXEL: (Caption) The argument today is about Carter. About the Olympics. About whether boycotting Moscow will accomplish anything besides making the athletes miserable. An old man in a Panama hat insists that Carter is "too soft on the Soviets." Another man, younger, says the problem isn't Carter—it's that "Americans think diplomacy is a sport."
-AXEL: (Caption) I listen. I'm on my third cafecito. My hands are beginning to vibrate. I haven't felt anything below my kneecaps since the second cup.
+AXEL: (Caption) The men at the ventanita glance at the truck. Anglo driver. Corporate. They don't care about the gravity well; they just hold their ground. The ventanita is neutral territory. You can survive the extraction of your soul as long as you drink your coffee standing up.
+AXEL: (Caption) The truck turns the corner. The gravity normalizes. I drink the cafecito in two sips. It's strong enough to restart the LeMans' alternator. I order another. My hands are beginning to vibrate. I haven't felt anything below my kneecaps since the second cup.
 
 **Panel 08**
 DOÑA CARMEN: (Dialogue) "Oye, Miguelito—"

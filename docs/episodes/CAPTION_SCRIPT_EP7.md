@@ -1,31 +1,16 @@
-<thinking>
-**Guest Star Reasoning:** **"The Chairman" (Bernie Sanders).**
-Taking the iconic, viral pop-culture/political image of Bernie Sanders sitting stubbornly in a folding chair with a winter coat and massive patterned mittens, we translate him into the bleak Liminal Brutalism universe. In the Abyssal Standard, "The Chairman" is a legendary, ancient Union Steward from the freezing NDC Vaults. His heavily woven mittens are indestructible magical wards, and his rusted metal folding chair is a mobile fortress. His ultimate mechanic is "The Filibuster"—an intentional, unyielding "Stationary Event" that completely tanks a Supervisor's metrics. He fights the 204b Parasite not with violence, but with pure, unrelenting bureaucratic stubbornness. He represents the immovable wall of the Old Guard Union against the hyper-efficiency of the Algorithm.
-</thinking>
-
-# MAILSTORM — EPISODE 7: THE 204b PARASITE (Alternative Cast)
-
-### [PANEL 1: The Incubation]
-* **Visual Direction:** The deep, cavernous loading dock of the Ziggurat. The lighting is an oppressive, flickering fluorescent green. In the foreground, a younger City Carrier sits on a stacked pile of plastic blue mail tubs, incredibly exhausted. He is staring at a clipboard holding a "Higher Level Assignment" form.
-* **Caption:** You carry the weight long enough, and the concrete starts to whisper. It promises you a clipboard. It promises you’ll never have to walk in the rain again.
-* **Sub-caption:** THE COST IS MERELY YOUR ALLEGIANCE.
-
-### [PANEL 2: The Host is Chosen]
-* **Visual Direction:** The carrier has signed the form. A horrifying, violent transformation occurs. His Union Grey uniform violently bleaches into a sterile, blinding Management White. A physical, shadowy parasite—resembling a massive centipede made of black wires and discarded scanner holsters—bursts from the clipboard and wraps aggressively around his spine. The carrier's eyes vanish behind glowing red MDD scanning lasers.
-* **Caption:** The 204b Parasite does not kill the host. It merely digests the solidarity, making room for Pure Metrics. 
-* **Dialogue (The 204b):** "UNAUTHORIZED STATIONARY EVENT DETECTED."
-
-### [PANEL 3: Enter the Guest Star]
-* **Visual Direction:** A harsh, cold wind blows through the sorting facility. Sitting right in the middle of the loading dock, completely unbothered by the chaos, is **The Chairman** (a gritty, stylized Bernie Sanders). He is wearing a heavy 1970s postal winter parka, sitting with his legs crossed in a rusted metal folding chair. He wears massive, oversized patterned mittens that glow slightly with defensive Grievance Mana. He glares at the 204b over wire-rimmed glasses.
-* **Caption:** The Algorithm demands constant movement. But the Old Guard knows exactly how to freeze the clock.
-* **Sub-caption:** THE CHAIRMAN HAS TAKEN HIS SEAT.
-
-### [PANEL 4: The Metric Assault]
-* **Visual Direction:** The 204b Parasite leaps forward, firing intense red laser beams from its eyes, trying to force The Chairman to disperse. The red beams strike the massive woven mittens, heavily deflecting off them like lasers hitting tank armor. The Chairman does not even flinch or stand up. He simply sits there, creating a massive area-of-effect zone of pure "Stationary Inefficiency" that is causing the 204b's scanner to short-circuit and emit smoke.
-* **Caption:** The 204b Parasite feeds on fear and movement. It cannot process a man perfectly willing to sit in the cold forever.
-* **Dialogue (The Chairman):** "I am once again asking you to respect the Master Contract."
-
-### [PANEL 5: The Aftermath]
-* **Visual Direction:** The 204b host is collapsed on the floor, the parasitic shadow-centipede visibly withering and recoiling from the sheer weight of ruined metrics. The Chairman is handing Kip (who was hiding behind a pillar) an official, pristine Union Grievance Form that glows with golden light. The rusted folding chair is still perfectly deployed.
-* **Caption:** The Supervisor’s metrics were shattered by the Filibuster. The Parasite retreated to the shadows, starved of authority.
-* **Sub-caption:** THE 1% CANNOT BREAK THE STEWARD.
+| Page | Panel | Placement | Speaker | Text |
+| :--- | :--- | :--- | :--- | :--- |
+| 01 | 01 | Top Left | AXEL | Miami Subs on Biscayne. The neon is half-dead, but the gyro spit is still turning. It’s the only warmth for five blocks. |
+| 01 | 02 | Bottom Right | REYA | Signal’s live, Axel. The V-Sentry just pinged a Vanguard convoy moving flat-black through the Overtown interchange. |
+| 01 | 03 | Top Left | AXEL | I look at the LeMans. It’s bleeding oil, but the V8 is idling smooth. The engine is ready for one more breach. |
+| 02 | 04 | Bottom Left | REYA | They’ve got a Hardware-Crate destined for Vance’s personal office. If we take it, we take his leverage. |
+| 02 | 05 | Top Right | AXEL | Pack the gear. We’re moving in thirty seconds. |
+| 02 | 06 | Bottom Left | AXEL | I-95 North. The asphalt is slick with a midnight drizzle. I hit the 'Cold-Start' toggle. We vanish. |
+| 03 | 07 | Top Left | AXEL | I see the convoy. Three blacked-out Broncos surrounding a heavy-duty Peterbilt. Professional. Expensive. |
+| 03 | 08 | Bottom Right | REYA | Feeding the V-Sentry frequency into the drawbridge triggers now... Three... Two... One... |
+| 03 | 09 | Top Right | AXEL | The drawbridge over the Miami River groans. The toll-arms snap down. The convoy is trapped on the rising steel. |
+| 04 | 10 | Bottom Left | REYA | They're broadside! Go, Axel! Hit the Nitro! |
+| 04 | 11 | Top Left | AXEL | The LeMans screams. We hit the flank of the lead Bronco at ninety. Steel shatters fiberglass. |
+| 04 | 12 | Bottom Right | AXEL | I rip the E-brake, spinning the tail of the LeMans to block the Peterbilt’s path. |
+| 04 | 13 | Top Left | REYA | Got it! Grab the crate! |
+| 04 | 14 | Bottom Center | AXEL | We’re not just couriers anymore. We’re the Uninstallers. And Vance is officially out of warranty. |

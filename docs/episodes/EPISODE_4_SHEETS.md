@@ -1,23 +1,28 @@
-# EPISODE 4: THE CBA SHIELD
-**Status:** Beat Outline and Lore Alignment
+---
+title: EPISODE_4_SHEETS
+epic: slice_vice
+---
 
-## 1. NARRATIVE GOAL
-Bridge the gap between pure physical survival (Eps 1-3) and offensive bureaucratic magic. Kip must learn that the Algorithm has a fatal weakness: The Master Contract.
+# EPISODE 4 PANEL BREAKDOWN (14 PANELS)
 
-## 2. NEW CHARACTERS / ENTITIES
-- **The Inquisitor:** A towering, faceless Level 19 OIG (Office of Inspector General) entity. Wears a perfectly pressed white shirt; their face is obscured by a swirling vortex of red tape and MDD scanner glare.
-- **The Weingarten Steward:** A spectral manifestation of the NALC Guild. He appears as a grizzled, 30-year veteran carrier radiating blinding white "Just Cause" armor. He wields a glowing clipboard of holding.
+**Page 1 (The Imposition)**
+- **Panel 01:** (Wide) The massive, reinforced wrought-iron gates of "Pelican Bay Estates." Pure white stucco, perfectly trimmed hedges, and zero shadows. The LeMans is parked dead outside the gate. Axel is pushing the heavy car by hand, sweating profusely, trying not to scuff the pavement.
+- **Panel 02:** (Insert) Close-up of the municipal code plaque next to the gate. "NOISE CURFEW: 60 dB SECURE ENFORCEMENT."
+- **Panel 03:** (Action) Axel sliding back into the driver's seat. He takes the parking brake off. The road slopes gently downward into the pristine neighborhood.
 
-## 3. LORE MECHANICS
-- **The Dead Letter Offense:** Failing to report an un-manifested black letter is grounds for summary execution (Firing).
-- **The Step 1 Interrogation:** The Inquisitor pulls Kip into an alternate dimension interrogation room where logic is inverted (Catch-22 Logic Loop).
-- **The Weingarten Summon:** The spoken incantation that pauses all management attacks.
-- **The CBA Shield:** Reflected grievance energy that banishes the Inquisitor.
-- **Grievance Spite:** The crackling energy formed when Management breaks a rule.
+**Page 2 (The Coast)**
+- **Panel 04:** (Wide) The LeMans silently rolling down a street lined with identical, massive brutalist mansions. The lawns glow neon green. Streetlights are blinding white. Dead quiet.
+- **Panel 05:** (POV) First-person view from the windshield. The street is blocked by a line of perfectly spaced, plastic pink flamingos glowing faintly with an evil pink aura.
+- **Panel 06:** (Interior) Axel gritting his teeth, gripping the cold steering wheel.
+- **Panel 07:** (Overhead) The LeMans perfectly weaving between two pink flamingos. The clearance is less than an inch on either side.
 
-## 4. THE 5-PANEL BEATS
-**Beat 1 (The Snare):** Kip attempts to clock out, but his MDD screen turns blood red. The Inquisitor descends upon him, holding the Black DLO envelope from Episode 3.
-**Beat 2 (The Interrogation):** Kip is dragged into the "Step 1 Void," a crushing, gravity-heavy room surrounded by floating red rules. He is choking under the "Burden of Proof."
-**Beat 3 (The Summon):** Kip remembers the lore. He screams the incantation: "I summon the Steward!" The room cracks.
-**Beat 4 (The Cathedral):** The spectral Steward shatters the room. The visual transitions to an awe-inspiring, ethereal Cathedral constructed entirely out of stacked white grievance paper (The Union Hall).
-**Beat 5 (The Spite):** The Steward hands Kip back his scanner. Red, jagged electricity (Grievance Spite) begins to pool in Kip's forearms. He now has a weapon.
+**Page 3 (The Watch)**
+- **Panel 08:** (Action) Blinding white spotlights snap on, hitting the car from multiple roofs of the identical mansions.
+- **Panel 09:** (Reveal) Three heavily armed elderly people in pastel golf clothing stand on a manicured roof, aiming advanced, scoped, neon-cyan hunting rifles down at the car.
+- **Panel 10:** (Action) A suppressed sniper round tears silently through the air, ripping a perfect hole entirely through the passenger-side headrest of the LeMans.
+
+**Page 4 (The Act)**
+- **Panel 11:** (Stop) The LeMans rolling to a stop, out of momentum, directly in front of a massive mahogany double-door at house #404.
+- **Panel 12:** (Interior) Axel crouched low beneath the dashboard. He pulls a pepperoni pizza box from the dimly glowing Pizza Safe.
+- **Panel 13:** (Action) Axel violently kicking the LeMans door open, leaping out, and throwing the pizza box like a frisbee directly onto the pristine welcome mat.
+- **Panel 14:** (Splash) Axel aggressively twisting the ignition key. Fire erupts from exhaust pipes. The 110 decibel V8 shockwave physically shatters the front windows of the pristine mansion. End of Episode 4.

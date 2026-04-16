@@ -1,27 +1,27 @@
-# MAILSTORM
-## EPISODE 6: THE RURAL FRONTIER
+---
+title: CAPTION_SCRIPT_EP6
+epic: slice_vice
+---
 
-**Panel 1: The Edge of the Grid**
-(Kip stands at the exact line where the concrete Ziggurat sidewalks sheer off into an endless dirt road. The sky bruises purple.)
-Caption: You can't walk forever. Eventually, the Article 8 safety grid breaks, and the concrete bleeds out into the Evaluation Sea.
-Sub-caption: Welcome to the Rural Route.
+# MASTER CAPTION SCRIPT: Episode 6 (Cutter's Run)
+**VOICE:** Axel (Inner monologue) / Reya / Vance
+**TONE:** High-speed, neon-drenched, high-octane 1980s action.
 
-**Panel 2: The Right-Hand Ranger**
-(An armored, right-hand-drive rusted jeep skids to a halt, kicking up a massive dust cloud. The driver, wearing a bandana and bucket hat, shoves the door open.)
-Caption: Out here, there is no Union Hall shield. The NRLCA operates completely exposed.
-Dialogue (Ranger): "Get in the rig, City Boy! The Algorithm is clocking us!"
+## 📖 14-PANEL CAPTION MAP
 
-**Panel 3: The Sentinel Awakens**
-(A terrifying 20-foot tall 'Mailbox Sentinel' golem constructed of decaying wooden fenceposts and dozens of rusted metal mailboxes rises from the foggy field.)
-Caption: The hazards don't wait on street corners anymore. They grow directly out of the overgrown fields. 
-Sub-caption: The Mailbox Sentinels demand volume.
-
-**Panel 4: The Evaluation Blitz**
-(High-speed vehicular combat. The jeep drifts sideways in the dirt. Kip leans completely out, wielding the white plastic Tub Shield to brutally deflect a crushing blow from the Golem.)
-Caption: Their magic isn't endurance—it's sheer, reckless momentum. The Evaluation Blitz.
-Dialogue (Kip): "Brace for impact! I'm popping the Tub-Shield!"
-
-**Panel 5: The Cross-Guild Truce**
-(The battered jeep idles next to a cluster-box under the starlight. The Ranger sits on the hood drinking from a canteen, respectfully handing Kip a glowing map fragment.)
-Caption: We survived the blitz. The lone wolves formally acknowledged the NALC.
-Sub-caption: THE RURAL ALLIANCE HAS BEEN FORGED.
+| Page | Panel | Placement | Ref Code | Caption Text |
+| :--- | :--- | :--- | :--- | :--- |
+| 01 | 01 | Top-Left | EP6-1 | STILTSVILLE. THE VANGUARD'S PEARL-WHITE TRUCKS ARE CLOSING THE PERIMETER. |
+| 01 | 02 | Bottom-Right | EP6-2 | REYA: "PLUG IT IN, AXEL! OVERRIDE THE INTERCEPTOR MODULE AND KEY THE NITRO!" |
+| 01 | 03 | Top-Left | EP6-3 | NO MORE GAMES. VANCE WANTS THE PROTOTYPE, BUT HE'S GOING TO HAVE TO CHASE US INTO THE MAINLAND. |
+| 02 | 04 | Top-Left | EP6-4 | WE BURST THROUGH THE SHACK WALLS. NO MORE STEALTH. NO MORE COMPLIANCE. |
+| 02 | 05 | Bottom-Right | EP6-5 | VANCE: "UNIT 404 IS RUNNING A HIGH-SPEED BREACH. PUSH THEM TO THE BRIDGE GAP." |
+| 02 | 06 | Top-Left | EP6-6 | THE BAY BRIDGE IS BROKEN. A HUNDRED FEET OF NOTHING BETWEEN US AND THE MAINLAND. |
+| 03 | 07 | Top-Left | EP6-7 | AT 80 MILES PER HOUR, THERE'S NO ROOM FOR DOUBT. ONLY THE NITRO IN THE TANK AND THE HARDWARE IN THE DASH. |
+| 03 | 08 | Bottom-Right | EP6-8 | WE FLY. PURE KINETIC ENERGY, SPITTING SMOKE AND MAGENTA FLAMES. |
+| 03 | 09 | Top-Left | EP6-9 | VANCE: "HOW... HOW DID HE CLEAR THAT GAP?" |
+| 04 | 10 | Top-Left | EP6-10 | THE VANGUARD TRUCKS AREN'T BUILT FOR VELOCITY. THEY PLUNGE INTO THE ABYSS AS THE ROAD RUNS OUT. |
+| 04 | 11 | Bottom-Right | EP6-11 | REYA: "DIRECTOR VANCE JUST LOST THE RICKENBACKER. HE'S IN THE WATER." |
+| 04 | 12 | Top-Left | EP6-12 | WE HIT THE MAINLAND. THE WORLD RETURNS TO SOLID, GRITTY ASPHALT. |
+| 04 | 13 | Bottom-Right | EP6-13 | AXEL: "VANCE IS GONE. BUT THIS MODULE... IT'S THE LEVERAGE WE NEED." |
+| 04 | 14 | Top-Left | EP6-14 | WE AREN'T COURIERS ANYMORE. WE'RE THE UNINSTALLERS. WELCOME TO CUTTER'S RUN. |

@@ -5,27 +5,322 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mailstorm - The Corporate Battle Manga</title>
-    <!-- Mermaid CDN for Roadmap Graphics -->
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-      mermaid.initialize({ startOnLoad: true, theme: 'dark', fontFamily: 'Roboto Condensed' });
-      window.mermaid = mermaid;
-    </script>
+    <title>Slice Vice - Dash Reader</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
   </head>
   <body>
-    <div id="app"></div>
-    <!-- Environmental Audio -->
-    <div style="position: fixed; bottom: 10px; right: 10px; background: #111; padding: 10px; border: 1px solid #333; z-index: 1000; font-family: sans-serif; font-size: 12px; color: #888;">
-      <label>
-        <input type="checkbox" id="ambient-toggle"> Enable Liminal Ambience
-      </label>
-      <audio id="ambient-audio" src="/audio/abyssal_hum.wav" loop></audio>
+    <!-- CRT Overlay -->
+    <div class="crt-overlay"></div>
+
+    <div id="hub-view" class="view-container active">
+      <div class="arcade-cabinet">
+        <h1 class="neon-title" style="margin-bottom: 2rem;">SLICE VICE</h1>
+        
+        <!-- MAIN MENU -->
+        <div id="menu-main" class="menu-screen active">
+          <div class="volume-header">SELECT_CHANNEL</div>
+          <div class="menu-options" style="display: flex; flex-direction: column; gap: 10px;">
+            <button id="nav-to-volumes" class="arcade-btn" style="text-align: left;">▶ 01: PLAY_TAPES</button>
+            <button id="nav-to-archives" class="arcade-btn" style="text-align: left; color: #00ffff; border-color: #00ffff;">▶ 02: DATA_ARCHIVES</button>
+          </div>
+        </div>
+
+        <!-- VOLUMES SUB-MENU (Selection) -->
+        <div id="menu-volumes-select" class="menu-screen hidden">
+          <button class="nav-back arcade-btn" style="font-size: 1rem; padding: 0.5rem; margin-bottom:1rem; border-color: #666; color: #666;">← RETURN_TO_MAIN</button>
+          
+          <div class="volume-header">SELECT_VOLUME</div>
+          <div class="menu-options" style="display: flex; flex-direction: column; gap: 15px;">
+            <button id="nav-to-vol1" class="arcade-btn" style="text-align: left; color: var(--accent-cyan); border-color: var(--accent-cyan);">▶ PHASE 01: THE SLIPSTREAM</button>
+            <button id="nav-to-vol2" class="arcade-btn" style="text-align: left; color: #ffeb3b; border-color: #ffeb3b;">▶ PHASE 02: THE UNINSTALLER</button>
+            <button id="nav-to-vol3" class="arcade-btn" style="text-align: left; color: #e8a045; border-color: #e8a045;">▶ PHASE 03: THE IDLE ENGINE</button>
+          </div>
+        </div>
+
+        <!-- VOL 1 EPISODES -->
+        <div id="menu-vol1-episodes" class="menu-screen hidden">
+          <button class="nav-back-to-volumes arcade-btn" style="font-size: 1rem; padding: 0.5rem; margin-bottom:1rem; border-color: #666; color: #666;">← RETURN_TO_VOLUMES</button>
+          <div class="volume-header">VOLUME 01: THE SLIPSTREAM</div>
+          <div class="menu-options" style="display: flex; flex-direction: column; gap: 10px;">
+            <button id="btn-play-ep1" class="arcade-btn" style="text-align: left;">▶ TRK 01: THE I-95 SLIPSTREAM</button>
+            <button id="btn-play-ep2" class="arcade-btn" style="text-align: left;">▶ TRK 02: 12 KNOTS</button>
+            <button id="btn-play-ep3" class="arcade-btn" style="text-align: left;">▶ TRK 03: THE AUDIT</button>
+            <button id="btn-play-ep4" class="arcade-btn" style="text-align: left;">▶ TRK 04: THE SILENT DISTRICT</button>
+            <button id="btn-play-ep5" class="arcade-btn" style="text-align: left;">▶ TRK 05: DEAD WAKE</button>
+            <button id="btn-play-ep6" class="arcade-btn" style="text-align: left;">▶ TRK 06: CUTTER'S RUN</button>
+          </div>
+        </div>
+
+        <!-- VOL 2 EPISODES -->
+        <div id="menu-vol2-episodes" class="menu-screen hidden">
+          <button class="nav-back-to-volumes arcade-btn" style="font-size: 1rem; padding: 0.5rem; margin-bottom:1rem; border-color: #666; color: #666;">← RETURN_TO_VOLUMES</button>
+          <div class="volume-header" style="color: #ffeb3b; border-color: #ffeb3b;">VOLUME 02: THE UNINSTALLER</div>
+          <div class="menu-options" style="display: flex; flex-direction: column; gap: 10px;">
+            <button id="btn-play-ep7" class="arcade-btn" style="text-align: left; color: #ffeb3b; border-color: #ffeb3b;">▶ TRK 07: THE UNINSTALLER</button>
+            <button id="btn-play-ep8" class="arcade-btn" style="text-align: left; color: #ffeb3b; border-color: #ffeb3b;">▶ TRK 08: THE SIEGE OF THE MARINE STADIUM</button>
+            <button id="btn-play-ep9" class="arcade-btn" style="text-align: left; color: #ffeb3b; border-color: #ffeb3b;">▶ TRK 09: THE SHALLOWS RECLAMATION</button>
+            <button id="btn-play-ep10" class="arcade-btn" style="text-align: left; color: #ffeb3b; border-color: #ffeb3b;">▶ TRK 10: THE AUDIT EXCHANGE</button>
+            <button id="btn-play-ep11" class="arcade-btn" style="text-align: left; color: #ffeb3b; border-color: #ffeb3b;">▶ TRK 11: THE CONCRETE SIEGE</button>
+            <button id="btn-play-ep12" class="arcade-btn" style="text-align: left; color: #ffeb3b; border-color: #ffeb3b;">▶ TRK 12: THE BREAKING POINT</button>
+            <button id="btn-play-ep13" class="arcade-btn" style="text-align: left; color: #ff00ff; border-color: #ff00ff;">▶ TRK 13: THE UNINSTALLER [FINALE]</button>
+          </div>
+        </div>
+
+        <!-- VOL 3 EPISODES -->
+        <div id="menu-vol3-episodes" class="menu-screen hidden">
+          <button class="nav-back-to-volumes arcade-btn" style="font-size: 1rem; padding: 0.5rem; margin-bottom:1rem; border-color: #666; color: #666;">← RETURN_TO_VOLUMES</button>
+          <div class="volume-header" style="color: #e8a045; border-color: #e8a045;">VOLUME 03: THE IDLE ENGINE</div>
+          <div class="menu-options" style="display: flex; flex-direction: column; gap: 10px;">
+            <button id="btn-play-ep14" class="arcade-btn" style="text-align: left; color: #e8a045; border-color: #e8a045;">▶ TRK 14: THE VENTANITA</button>
+            <button id="btn-play-ep15" class="arcade-btn" style="text-align: left; color: #e8a045; border-color: #e8a045;">▶ TRK 15: PALM SPRINGS MILE</button>
+            <button id="btn-play-ep16" class="arcade-btn" style="text-align: left; color: #e8a045; border-color: #e8a045;">▶ TRK 16: THE MESH</button>
+            <button id="btn-play-ep17" class="arcade-btn" style="text-align: left; color: #e8a045; border-color: #e8a045;">▶ TRK 17: EARLY BIRD</button>
+            <button id="btn-play-ep18" class="arcade-btn" style="text-align: left; color: #e8a045; border-color: #e8a045;">▶ TRK 18: THE INFIELD</button>
+          </div>
+        </div>
+
+        <!-- ARCHIVES SUB-MENU -->
+        <div id="menu-archives" class="menu-screen hidden">
+          <button class="nav-back arcade-btn" style="font-size: 1rem; padding: 0.5rem; margin-bottom:1rem; border-color: #666; color: #666;">← RETURN_TO_MAIN</button>
+          
+          <div class="volume-header">DATA_ARCHIVES</div>
+          <div class="menu-options" style="display: flex; flex-direction: column; gap: 10px;">
+            <button id="btn-open-archive" class="arcade-btn" style="text-align: left; color: #00ffff; border-color: #00ffff;">▶ HIGH-RES_ARCHIVES</button>
+            <button id="btn-open-encyclopedia" class="arcade-btn" style="text-align: left;">▶ ENCYCLOPEDIA</button>
+            <button id="btn-open-manual" class="arcade-btn" style="border-color: #ff00ff; color: #ff00ff; text-align: left;">▶ VOL 1 FIELD MANUAL</button>
+            <button id="btn-open-map" class="arcade-btn" style="border-color: #ffeb3b; color: #ffeb3b; text-align: left;">▶ GLOVEBOX ATLAS</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Modal Container for Faction Data -->
-    <div id="modal-container"></div>
+
+    <!-- The Map Viewer -->
+    <div id="map-view" class="view-container hidden">
+      <div style="position: relative; width: 90vw; height: 90vh; background: #000; display: flex; justify-content: center; align-items: center; border: 4px solid #ffeb3b; box-shadow: 0 0 20px rgba(255, 235, 59, 0.5);">
+         <button id="btn-hub-from-map" style="position: absolute; top: -15px; right: -15px; width: 40px; height: 40px; background: #ffeb3b; color: #000; border: none; font-weight: bold; font-size: 1.5rem; cursor: pointer; border-radius: 50%; box-shadow: 0 0 10px #ffeb3b; z-index: 10;">X</button>
+         
+         <div style="position: relative; height: 100%; aspect-ratio: 1/1; max-width: 100%;">
+            <img src="/assets/slice_vice_master_map.png" style="width: 100%; height: 100%; object-fit: contain;" alt="Slice Vice Master Atlas">
+            
+            <button class="map-node" data-img="/assets/sunken_tollbooth.png" data-desc="SECURE TOLL CROSSING" style="top: 85%; left: 75%;"></button>
+            <button class="map-node" data-img="/assets/neon_publix_ruins.png" data-desc="DISTRICT SUPPLY HUB" style="top: 15%; left: 45%;"></button>
+            <button class="map-node" data-img="/assets/pelican_bay_fortress.png" data-desc="COASTAL BLACKSITE" style="top: 25%; left: 15%;"></button>
+            <button class="map-node" data-img="/assets/overpass_ambush.png" data-desc="TACTICAL OVERPASS" style="top: 35%; left: 55%;"></button>
+            <button class="map-node" data-img="/assets/cigarette_boat_docks.png" data-desc="SMUGGLER DOCKS" style="top: 45%; left: 35%;"></button>
+            <button class="map-node" data-img="/assets/stilt_houses.png" data-desc="STILTSVILLE OUTPOST" style="top: 55%; left: 70%;"></button>
+            <button class="map-node" data-img="/assets/corporate_garage.png" data-desc="SLICE VICE LOGISTICS HUB" style="top: 75%; left: 85%;"></button>
+            <button class="map-node" data-img="/assets/sunken_causeway.png" data-desc="CAUSEWAY BRECH" style="top: 65%; left: 15%;"></button>
+            <button class="map-node" data-img="/assets/theme_park_graveyard.png" data-desc="INDUSTRIAL YARD" style="top: 5%; left: 65%;"></button>
+            <button class="map-node" data-img="/assets/retro_strip_mall.png" data-desc="RECON SITE: STRIP MALL" style="top: 45%; left: 85%;"></button>
+
+            <!-- Grounded Expansion Nodes -->
+            <button class="map-node" data-img="/assets/miami_subs_safehouse_artifact.png" data-desc="SAFEHOUSE: MIAMI SUBS" style="top: 40%; left: 70%;" title="CURRENT STAGING GROUND"></button>
+            <button class="map-node" data-img="/assets/atlas_stiltsville.png" data-desc="GHOST SITE: STILTSVILLE" style="top: 65%; left: 75%;"></button>
+            <button class="map-node" data-img="/assets/atlas_rickenbacker.png" data-desc="BREACH POINT: RICKENBACKER" style="top: 80%; left: 65%;"></button>
+            <button class="map-node" data-img="/assets/atlas_checkpoint_alpha.png" data-desc="VANGUARD CHECKPOINT ALPHA" style="top: 20%; left: 80%;"></button>
+
+            <!-- Mainland Operations -->
+            <button class="map-node" data-img="/assets/atlas_asphalt_spire_1775588977326.png" data-desc="THE ASPHALT SPIRE" style="top: 20%; left: 50%;"></button>
+            <button class="map-node" data-img="/assets/atlas_drowned_district_1775588994902.png" data-desc="DROWNED PRECINCT" style="top: 60%; left: 80%;"></button>
+            <button class="map-node" data-img="/assets/atlas_neon_ziggurat_1775589011415.png" data-desc="CORPORATE MEGAPLEX" style="top: 50%; left: 60%;"></button>
+            <button class="map-node" data-img="/assets/atlas_bone_circuit_1775589022939.png" data-desc="THE OVERTOWN SLIPSTREAM" style="top: 40%; left: 25%;"></button>
+            <button class="map-node" data-img="/assets/atlas_ignition_crater_1775589035728.png" data-desc="IGNITION ZONE" style="top: 85%; left: 20%;"></button>
+            <button class="map-node" data-img="/assets/atlas_velvet_abattoir_1775589046759.png" data-desc="THE ABATTOIR" style="top: 60%; left: 50%;"></button>
+            <button class="map-node" data-img="/assets/atlas_atlantis_wavepool_1775589190699.png" data-desc="AQUA-CRYPT" style="top: 30%; left: 75%;"></button>
+            <button class="map-node" data-img="/assets/atlas_marine_stadium_1775589204180.png" data-desc="THE AMPHITHEATER" style="top: 50%; left: 90%;"></button>
+            <button class="map-node" data-img="/assets/atlas_castle_arcade_1775589218975.png" data-desc="TACTICAL GAUNTLET" style="top: 30%; left: 35%;"></button>
+            <button class="map-node" data-img="/assets/atlas_glass_shroud_1775589357469.png" data-desc="THE GLASS SHROUD" style="top: 70%; left: 45%;"></button>
+            <button class="map-node" data-img="/assets/atlas_isotope_reactor_1775589371597.png" data-desc="ISOTOPE STATION" style="top: 80%; left: 90%;"></button>
+            <button class="map-node" data-img="/assets/atlas_severed_spine_1775589383155.png" data-desc="THE SEVERED SPINE" style="top: 90%; left: 10%;"></button>
+         </div>
+
+         <!-- Custom Modal overlay -->
+         <div id="map-modal" style="display: none; position: absolute; top: 10%; left: 10%; width: 80%; height: 80%; background: rgba(0,0,0,0.95); border: 2px solid cyan; z-index: 20; flex-direction: column;">
+            <div style="display: flex; justify-content: space-between; align-items: center; background: cyan; color: black; padding: 5px 15px; font-family: 'VT323', monospace;">
+                <span id="map-modal-title" style="font-size: 1.5rem; font-weight: bold;">LOCATION</span>
+                <button id="close-map-modal" style="background: transparent; color: black; border: none; cursor: pointer; font-family: inherit; font-size: 1.5rem;">[X]</button>
+            </div>
+            <div style="flex: 1; display: flex; justify-content: center; align-items: center; padding: 10px; min-height: 0; overflow: hidden;">
+                <img id="map-modal-img" src="" style="max-width: 100%; max-height: 100%; object-fit: contain; border: 4px solid white; box-shadow: 0 0 15px cyan;">
+            </div>
+         </div>
+      </div>
+    </div>
+
+    <div id="archive-view" class="view-container hidden">
+      <div style="position: relative; width: 80vw; height: 80vh; background: #000; display: flex; flex-direction: column; padding: 40px; border: 4px solid #00ffff; box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); font-family: 'VT323', monospace;">
+         <button id="btn-hub-from-archive" style="position: absolute; top: -15px; right: -15px; width: 40px; height: 40px; background: #00ffff; color: #000; border: none; font-weight: bold; font-size: 1.5rem; cursor: pointer; border-radius: 50%; box-shadow: 0 0 10px #00ffff; z-index: 10;">X</button>
+         <p style="color: white; font-size: 1.5rem; margin-bottom: 30px;">Direct download links for the high-resolution, uncompressed PDF files of the Slice Vice chronicles.</p>
+         
+         <div style="display: flex; flex-direction: column; gap: 15px; overflow-y: auto; padding-right: 10px;">
+           <a href="/SliceVice_EP1.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 01: NEON SLIPSTREAM</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP2.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 02: 12 KNOTS</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP3.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 03: THE AUDIT</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP4.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 04: THE HOA VANGUARD</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP5.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 05: DEAD WAKE</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP6.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 06: CUTTER'S RUN</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP7.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 07: THE UNINSTALLER</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP8.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 08: THE SIEGE OF THE MARINE STADIUM</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP9.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 09: THE SHALLOWS RECLAMATION</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP10.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 10: THE AUDIT EXCHANGE</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP11.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 11: THE CONCRETE SIEGE</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP12.pdf" target="_blank" style="padding: 20px; background: rgba(0, 255, 255, 0.1); border: 2px solid #00ffff; color: #00ffff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(0, 255, 255, 0.3)'" onmouseout="this.style.background='rgba(0, 255, 255, 0.1)'">
+             <span>EPISODE 12: THE BREAKING POINT</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP13.pdf" target="_blank" style="padding: 20px; background: rgba(255, 0, 255, 0.1); border: 2px solid #ff00ff; color: #ff00ff; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(255, 0, 255, 0.3)'" onmouseout="this.style.background='rgba(255, 0, 255, 0.1)'">
+             <span>EPISODE 13: THE UNINSTALLER [FIN]</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP14.pdf" target="_blank" style="padding: 20px; background: rgba(232, 160, 69, 0.1); border: 2px solid #e8a045; color: #e8a045; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(232, 160, 69, 0.3)'" onmouseout="this.style.background='rgba(232, 160, 69, 0.1)'">
+             <span>EPISODE 14: THE VENTANITA</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP15.pdf" target="_blank" style="padding: 20px; background: rgba(232, 160, 69, 0.1); border: 2px solid #e8a045; color: #e8a045; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(232, 160, 69, 0.3)'" onmouseout="this.style.background='rgba(232, 160, 69, 0.1)'">
+             <span>EPISODE 15: PALM SPRINGS MILE</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP16.pdf" target="_blank" style="padding: 20px; background: rgba(232, 160, 69, 0.1); border: 2px solid #e8a045; color: #e8a045; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(232, 160, 69, 0.3)'" onmouseout="this.style.background='rgba(232, 160, 69, 0.1)'">
+             <span>EPISODE 16: THE MESH</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP17.pdf" target="_blank" style="padding: 20px; background: rgba(232, 160, 69, 0.1); border: 2px solid #e8a045; color: #e8a045; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(232, 160, 69, 0.3)'" onmouseout="this.style.background='rgba(232, 160, 69, 0.1)'">
+             <span>EPISODE 17: EARLY BIRD</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_EP18.pdf" target="_blank" style="padding: 20px; background: rgba(232, 160, 69, 0.1); border: 2px solid #e8a045; color: #e8a045; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(232, 160, 69, 0.3)'" onmouseout="this.style.background='rgba(232, 160, 69, 0.1)'">
+             <span>EPISODE 18: THE INFIELD</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+           <a href="/SliceVice_Vol1_Field_Manual.pdf" target="_blank" style="padding: 20px; background: rgba(255, 105, 180, 0.1); border: 2px solid #ff69b4; color: #ff69b4; text-decoration: none; font-size: 2rem; display: flex; justify-content: space-between; transition: all 0.2s ease;" onmouseover="this.style.background='rgba(255, 105, 180, 0.3)'" onmouseout="this.style.background='rgba(255, 105, 180, 0.1)'">
+             <span>FIELD MANUAL: VOLUME 01 (HIGH-RES)</span>
+             <span>[DOWNLOAD]</span>
+           </a>
+         </div>
+      </div>
+    </div>
+
+    <div id="encyclopedia-view" class="view-container hidden">
+      <div class="corp-database-layout">
+        <div class="corp-sidebar">
+          <button id="btn-hub-from-enc" class="corp-nav-link" style="color: #64748b; margin-bottom: 20px;">← Return to UI.OS</button>
+          <button id="btn-lore-routes" class="corp-nav-link">The Route Topology</button>
+          <button id="btn-lore-franchise" class="corp-nav-link">The Franchise Manual</button>
+          <button id="btn-lore-bestiary" class="corp-nav-link">The Bestiary</button>
+          <button id="btn-lore-metrics" class="corp-nav-link">The Metrics Cage</button>
+          <button id="btn-lore-garage" class="corp-nav-link">The Garage</button>
+          <button id="btn-lore-mixtapes" class="corp-nav-link">The Mixtapes</button>
+          <button id="btn-lore-pieces" class="corp-nav-link">The Set Pieces</button>
+          <button id="btn-lore-vehicles" class="corp-nav-link">The Vehicle Logs</button>
+          <button id="btn-lore-contract" class="corp-nav-link">Default Liability Agreement</button>
+          <button id="btn-lore-vanguard" class="corp-nav-link">Vanguard Tactical Intel</button>
+          <div class="corp-nav-section">PERSONNEL DOSSIERS</div>
+          <button class="corp-nav-link" id="btn-lore-axel">FILE: AXEL OVERDRIVE</button>
+          <button class="corp-nav-link" id="btn-lore-vance">FILE: DIRECTOR VANCE</button>
+          <button class="corp-nav-link" id="btn-lore-reya">FILE: REYA (SCAVENGER)</button>
+          <div class="corp-nav-section">GLOVEBOX ARTIFACTS</div>
+          <button class="corp-nav-link" id="btn-lore-memo" style="color: #ffeb3b; border-color: #ffeb3b;">FILE: DISPATCH MEMO</button>
+          <button class="corp-nav-link" id="btn-lore-note" style="color: #ffeb3b; border-color: #ffeb3b;">FILE: SCAVENGER NOTE</button>
+          <button class="corp-nav-link" id="btn-lore-cult" style="color: #ffeb3b; border-color: #ffeb3b;">FILE: CULT TRACT</button>
+          <button class="corp-nav-link" id="btn-lore-atlas" style="color: #ffeb3b; border-color: #ffeb3b;">FILE: GRID ATLAS</button>
+          <button class="corp-nav-link" id="btn-lore-soul" style="color: #ffeb3b; border-color: #ffeb3b;">FILE: SOUL CONTRACT</button>
+          <button class="corp-nav-link" id="btn-lore-ledger" style="color: #ffeb3b; border-color: #ffeb3b;">FILE: VANGUARD BOLO REPORT</button>
+          <button class="corp-nav-link" id="btn-lore-blueprints" style="color: #ffeb3b; border-color: #ffeb3b;">FILE: LEMANS BLUEPRINTS</button>
+          <button class="corp-nav-link" id="btn-lore-tape" style="color: #00ffff; border-color: #00ffff;">FILE: THE V-SENTRY PROTOTYPE</button>
+          <button class="corp-nav-link" id="btn-lore-mainland" style="color: #ffeb3b; border-color: #ffeb3b;">FILE: MAINLAND LEDGER</button>
+          <button class="corp-nav-link" id="btn-lore-305r" style="color: #00ffff; border-color: #00ffff;">SECTOR INTEL: 305-R</button>
+          <button class="corp-nav-link" id="btn-lore-jammer" style="color: #ffeb3b; border-color: #ffeb3b;">FILE: V-SENTRY 900 JAMMER</button>
+        </div>
+        <div class="corp-main-view">
+          <div id="lore-content" class="corp-document">
+             Select a Corporate Document...
+          </div>
+          <div id="visual-artifact-container" class="hidden" style="margin-top: 2rem; border: 2px solid #ffeb3b; padding: 10px; background: rgba(0,0,0,0.5);">
+             <img id="visual-artifact-img" src="" style="width: 100%; height: auto; border: 1px solid #fff;">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="manual-view" class="view-container hidden">
+      <div class="manual-layout">
+        <button id="btn-hub-from-manual" class="manual-close-btn">X</button>
+        <div id="manual-content" class="manual-book">
+           <!-- Dynamic Manual Content -->
+        </div>
+      </div>
+    </div>
+
+    <div id="reader-view" class="view-container hidden">
+      <div id="lemans-dashboard">
+        <!-- The Windshield (Where the comic plays) -->
+        <div id="windshield-view">
+          <div id="app"></div> <!-- Comic Reader Injects Here -->
+        </div>
+        
+        <!-- The Dashboard UI -->
+        <div id="dash-controls">
+          <div class="hud-panel">
+            <div class="hud-label">TIMER</div>
+            <div class="hud-value neon-red" id="hud-timer">29:59</div>
+          </div>
+          <div class="hud-panel central-tape-deck">
+            <div class="deck-slot" id="tape-status">NO TAPE INSERTED</div>
+            <button id="btn-prev" class="dash-btn">◄◄ REW</button>
+            <button id="btn-next" class="dash-btn">►► FF</button>
+          </div>
+          <div class="hud-panel">
+            <div class="hud-label">TAPE DECK</div>
+            <button id="btn-eject" class="dash-btn" style="color:var(--accent-red); margin-top:5px;">[EJECT]</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Environmental Audio -->
+    <div style="position: fixed; bottom: 10px; right: 10px; z-index: 1000; font-family: 'VT323', monospace; color: #ff00ff; padding: 5px; border: 1px solid #ff00ff; background: rgba(0,0,0,0.8);">
+      <label>
+        <input type="checkbox" id="ambient-toggle"> CASSETTE AUDIO SYNC
+      </label>
+      <audio id="ambient-audio" src="/audio/miami_bass.wav" loop></audio>
+    </div>
     
     <script type="module" src="/src/main.js"></script>
   </body>

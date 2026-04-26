@@ -23,11 +23,31 @@ This table maps the linear progression of Axel's struggle against the Grid, anch
 | **16** | **Mar 5, 1980** | Little Haiti — the Haitian Mesh-Network's analog sanctuary. | Axel delivers an envelope to Jean-Pierre. Discovers the Invisible Grid. Jean-Pierre reports tripled Coast Guard chatter in the Straits. |
 | **17** | **Mar 10, 1980** | Hollywood, FL — the Condo Canyon. McDuffie indictment announced. | Shakedown run north. Axel meets Sol Abramowitz in a deli. First sit-down meal in 70 days. WIOD reports McDuffie officers indicted. |
 | **18** | **Mar 15, 1980** | Cape Florida Lighthouse, Key Biscayne. Oldest structure in Dade County. | **EMOTIONAL CLIMAX:** Axel reaches into his jacket and listens to the twenty-minute tape reel of his mother's voice. A bedtime story repurposed as a goodbye. He hears boat engines in the Straits. Something is coming. |
+| **19** | **Mar 20, 1980** | Pre-Mariel tension builds. | The Blind Fire. Bridge episode tracking ambient analog noise. |
+| **20** | **Mar 28, 1980** | Spring tides crest. | The Water Level. Slice-of-life bridge. |
+| **21** | **Apr 3, 1980** | Scrap economy fluctuates. | Dockery's. Scavenging sequence. |
+| **22** | **Apr 9, 1980** | Grid fluctuations in Overtown. | Static Maps. Navigation routing. |
+| **23** | **Apr 14, 1980** | Final day of the Ghost Month. | Condo Canyon Redux. Pre-surge quiet. |
+| **24** | **Apr 19, 1980** | Versailles Night Shift. | Late night strategy discussion. |
 | | | | |
 | | | **— VOLUME 04: THE MARIEL SURGE —** | |
-| **19** | **Apr 15, 1980** | The First Wave. Perimeter breaches at all municipal docks. | The ghost month ends. Axel runs extraction interference as Vanguard tries to force default contracts on incoming refugees at the docks. |
-| **20** | **May 5, 1980** | The Orange Bowl. Tents on the AstroTurf. | Axel and JP use a portable bypass to hide 4,000 refugees from Vanguard sweepers, triggering Vance to deploy armored bulldozers. |
-| **21** | **May 7, 1980** | Sector H. Radio Maria's compound. | The escalation. Axel hardwires the LeMans into Maria's pirate mast, amplifying the ghost signal to create a massive analog blackout over the eastern coast. |
+| **25** | **Apr 15, 1980** | The First Wave. Perimeter breaches at all municipal docks. | The ghost month ends. Axel runs extraction interference as Vanguard tries to force default contracts on incoming refugees at the docks. |
+| **26** | **May 5, 1980** | The Orange Bowl. Tents on the AstroTurf. | Axel and JP use a portable bypass to hide 4,000 refugees from Vanguard sweepers, triggering Vance to deploy armored bulldozers. |
+| **27** | **May 7, 1980** | Sector H. Radio Maria's compound. | The escalation. Axel hardwires the LeMans into Maria's pirate mast, amplifying the ghost signal to create a massive analog blackout over the eastern coast. |
+| **28** | **May 17, 1980** | Verdict returned in the McDuffie case. | The Verdict Hour. Tension breaks into physical fire. Axel conducts emergency extraction, moving Doña Carmen out of Sector H to Hialeah. |
+| **29** | **May 17, 1980** | Liberty City Riots erupt. | The Mesh Route. Axel drives Jean-Pierre and the entire physical Mesh Archive through a burning city to safety at Elio's garage. |
+| **30** | **May 18, 1980** | Riots spread. | The Ledger Run. Axel extracts Sol from Condo Canyon before Vanguard Corporate can wipe his un-digitized property knowledge. |
+| **31** | **May 18, 1980** | Dawn after the riots. | The Morning After. The Riot Arc concludes. Sol hands over his backup notebook. Volume 04 ends. |
+| | | | |
+| | | **— VOLUME 05: THE PAPER TRAIL —** | |
+| **32** | **May 19, 1980** | The aftermath of the Riot Arc. | The Audit. The team cross-references Sol's notebook with the Mesh Archive analog echoes at Elio's Garage. |
+| **33** | **May 19, 1980** | Demolition emergency permits. | The Salvage Run. Axel and JP storm Parcel 402 during an emergency demolition to extract Vanguard mid-city routing cards. |
+| **34** | **May 19, 1980** | The Grid-Spike maps mapped out. | The Layout. Cross-referencing the Routing Cards against Sol's ledger reveals the "Biscayne Entertainment Band" is the next target. |
+| **35** | **May 19, 1980** | The Mutiny Hotel runs on credit. | The Service Route. Axel cases the loading dock of the Mutiny Hotel; Reya pulls architectural blueprints at the Cinema Rouge. |
+| **36** | **May 20, 1980** | High-end hospitality lunchtime rush. | The Lunch Shift. Axel infiltrates the Mutiny Hotel as a laundry courier and steals forty-something tap recordings of Vanguard's blackmail targets. |
+| **37** | **May 22, 1980** | The Fontainebleau & The Forge. | The Scattered Deck. The team races Vanguard to the remaining routing points, disabling them, but Vanguard visually IDs Reya at The Forge. |
+| **38** | **May 23, 1980** | Biscayne Bay, five miles out. | The Ghost Club. Axel navigates out to Stiltsville, finds the final routing hardware already stripped, and receives a direct threat from Director Vance. |
+| **39** | **May 23, 1980** | Overtown and Radio Maria. | The Faraday Cage. The team shields the hardware in copper mesh while Sol uses Radio Maria to broadcast Vanguard's blackmail tapes, forcing Vance's crews to retreat. Volume 05 ends. |
 
 ## Universe Persistence Note:
 Between every episode, Axel is spending "Re-Enfranchisement Credits" on black-market parts just to keep the '78 LeMans from seizing up. The car is becoming a "Ship of Theseus" of junkyard scrap.

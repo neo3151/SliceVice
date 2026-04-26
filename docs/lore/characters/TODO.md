@@ -1,0 +1,5 @@
+- [ ] Update `../../../generate_image.py` to accept configurable prompt input (CLI/env)
+- [ ] Add optional variation toggle to append randomness to prompt
+- [ ] Improve logging to show effective prompt and output path
+- [ ] Run tests with different prompts and compare resulting files/hashes
+- [ ] Summarize testing results and behavior changes

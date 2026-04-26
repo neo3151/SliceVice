@@ -1,4 +1,4 @@
-# NEIGHBORHOOD DOSSIER: Mister G
+so# NEIGHBORHOOD DOSSIER: Mister G
 ## 👤 PROFILE / PURPOSE
 Mister G is the unofficial "landlord" of the abandoned Art Deco laundromat beneath Axel’s rooftop shipping container in Sector H (Little Haiti). He is an elderly Haitian man who lives entirely inside the hollowed-out aluminum shell of three massive, industrial-grade commercial clothes dryers linked together along the back wall. The glass doors of the dryers serve as his porthole windows to the flooded street. He rarely speaks, communicating mostly through aggressive broom-sweeps and tapping out rhythms on the washing machines with a heavy iron wrench.
 

@@ -1,49 +1,59 @@
-# EPISODE 20: TENT CITY (MAY 5, 1980)
+# EPISODE 20 SCRIPT: "THE WATER LEVEL"
+**Date:** March 28, 1980 — Late Afternoon
+**Historical Anchor:** Eleven days since the lighthouse. Eleven days since Axel handed the tape to Mister G and came back to the city with an empty left pocket and a rebuilt transmission and no instructions for what comes next. The Mariel Harbor situation in Cuba is still twelve days from breaking open. The city doesn't know that yet. It is having a quiet Thursday.
 
-## SCENE 01: THE IDLE
-**[PANEL 1 - WIDE SHOT]**
-**Visual:** The massive concrete bowl of the Miami Orange Bowl. The field is completely obscured by a sea of olive-drab canvas tents and chain-link fencing. Floodlights cut through the humid night air. Surrounding the stadium, just outside the municipal perimeter: a ring of black, heavily armored Vanguard Trust Repo-Trucks, their engines idling.
-**AXEL (CAPTION):** May 5th. Three weeks since the Straits broke open. Forty thousand people have hit the beach, and the city ran out of rooms on day two.
+---
 
-**[PANEL 2 - CLOSE UP]**
-**Visual:** Inside the LeMans. Axel's dashboard. His analog Nixie Timer is red-lining, flickering rapidly. The mechanical hum of the V8 is the only thing keeping the gauge from hitting zero.
-**AXEL (CAPTION):** The Orange Bowl. Tents on the AstroTurf. And Vance’s extraction fleet idling at the gates, waiting for the stragglers to wander out of the municipal safe zone.
+**Panel 01**
+AXEL: (Caption) The transmission shifts clean. The rebuilt Turbo-Hydramatic grabs each gear exactly where it should — no slip, no lag, no argument. The Stewart-Warner gauges sit level. Oil pressure good. Temp good. Voltage good. The Nixie timer reads 11:07 in calm amber and I've been driving for forty minutes and there is nothing wrong with this car.
+AXEL: (Caption) I keep waiting for it. The pull. The shimmy through the wheel. The knock from somewhere deep in the drivetrain that would tell me something survived the bridge. Nothing comes. The LeMans has been fixed and the LeMans doesn't know how to lie about itself.
+AXEL: (Caption) I'm the only one in this car who does.
 
-**[PANEL 3 - MID SHOT]**
-**Visual:** Axel is sitting in the driver's seat. Jean-Pierre is in the passenger seat, a soldering iron in his hand, putting the finishing touches on a massive, blocky analog transmitter strapped into the backseat where a passenger would normally go.
-**JEAN-PIERRE:** "The output array is primed. But it has to be deployed inside the stadium concourse. The concrete will amplify the analog bounce. It will cast a physical shadow over the north encampment. Four thousand people erased from Vance's thermal nets."
+**Panel 02**
+AXEL: (Caption) Three in the afternoon, post-rain. Brickell Avenue. The asphalt is still wet and doing that thing Miami asphalt does when the sun comes back — steaming, breathing, releasing heat it's been building since June. The bay is lit up to the east. Everything looks clean from a moving car.
+AXEL: (Caption) I take the long way. There's no reason for the long way. I take it anyway.
 
-## SCENE 02: THE BREACH
-**[PANEL 4 - WIDE ACTION]**
-**Visual:** The LeMans tears away from a shadowed alleyway opposite the stadium. Axel punches the gas. The car is a rusted, analog battering ram covered in copper mesh.
-**AXEL (CAPTION):** The LeMans handles differently with two hundred pounds of analog Faraday coils bolted to the transmission hum. She doesn't glide anymore. She hits.
+**Panel 03**
+AXEL: (Caption) The marina at Brickell. I slow down without meaning to.
+AXEL: (Caption) Half the slips are bare. Dock lines hanging off the cleats with nothing attached — swaying in the cross-breeze, useless, looking for the weight they used to hold. The cigarette boats are gone. The sport fishers, the twin-engine Bertrams that usually sit four-deep in the southern slips. Gone. The southern end went first.
+AXEL: (Caption) Someone left in a hurry. Several someones. I don't know what they know that I don't.
 
-**[PANEL 5 - CLOSE UP]**
-**Visual:** A Vanguard Repo-Truck driver, visor down, notices the LeMans approaching the perimeter gate at seventy miles an hour. He reaches for a heavy dashboard switch marked "GRAVITY ANCHOR."
-**AXEL (CAPTION):** Vance’s sweepers see the thermal anomaly coming. A massive, moving dead spot on their radar.
+**Panel 04**
+AXEL: (Caption) The delivery is a Brickell high-rise, service entrance off the side street. Unmarked box, standard handoff, nothing unusual on paper.
+AXEL: (Caption) The doorman clocks the LeMans from twenty feet with the specific look of a man who has learned to mistake proximity to money for having it. He's wearing a blue blazer with a small gold pin. He processes me and the car and the unmarked box and arrives at a conclusion I don't bother correcting.
+AXEL: (Caption) He waves me through without looking me in the eye. I prefer it that way.
 
-**[PANEL 6 - DYNAMIC ANGLE]**
-**Visual:** The LeMans physically fishtails as the air around the car warps—the visual distortion of a Grievance Point gravity spike hitting the asphalt just inches from the rear bumper. The concrete cracks under the invisible weight.
-**JEAN-PIERRE (CAPTION):** "Axel! The gravity spikes! Keep the RPMs above four thousand or the vacuum will stall the engine!"
+**Panel 05**
+AXEL: (Caption) Fourteenth floor. Apartment 1408. The door opens before I knock — she was watching through the peephole, which tells me she knows how to wait for something.
+AXEL: (Caption) She's in her seventies, housedress, a dishcloth in her hands. Behind her the apartment is warm and dense — sofrito and something baking and the close smell of a small space lived in well. She looks at my face the way people sometimes look at faces they recognize from somewhere they can't quite place.
+AXEL: (Caption) She isn't looking at the box.
+WOMAN: (Dialogue) "You have your father's posture."
+AXEL: (Caption) I don't know what to do with that. I leave the box. I take the stairs.
 
-## SCENE 03: THE CONCOURSE
-**[PANEL 7 - WIDE SHOT]**
-**Visual:** The LeMans smashes through a rusted chain-link maintenance gate at the base of the stadium. It slides sideways into the subterranean concrete concourse of the Orange Bowl. Sparks fly as the rear bumper scrapes the concrete wall.
-**AXEL (CAPTION):** Third gear. The Grand Prix transmission rebuild holds tight. We breach the lower concourse. The smell of stale beer, sweat, and fear is suffocating.
+**Panel 06**
+AXEL: (Caption) In the service elevator going down, alone — she hands me a small folded index card on the way out. Blue ink, careful cursive on heavyweight card stock. The kind of handwriting that learned on ruled paper fifty years ago and never had a reason to change.
+AXEL: (Caption) I read it going down fourteen floors.
+AXEL: (Caption) *Arroz con leche, serves 4. 1 cup rice, 2 cups milk, ½ cup evaporated milk, ½ cup sugar, 1 cinnamon stick, zest of 1 lemon. Do not rush the milk.*
+AXEL: (Caption) I read it twice. I don't know what to do with it. I fold it back the way she folded it.
 
-**[PANEL 8 - MID SHOT]**
-**Visual:** Jean-Pierre violently throws a heavy lever on the side of the bypass-transmitter in the backseat. The transmitter hums, glowing with a deep analog green light.
-**JEAN-PIERRE:** "Transmitter active! The signal is looping!"
+**Panel 07**
+AXEL: (Caption) Left jacket pocket. The tape has been out of this pocket since the lighthouse — eleven days. The pocket has been empty since then. I kept reaching for it and finding nothing, which is its own kind of conversation.
+AXEL: (Caption) The index card goes in. It settles at the bottom of the pocket, light, smaller than the tape but heavier than nothing.
+AXEL: (Caption) That's something.
 
-**[PANEL 9 - WIDE REACTION]**
-**Visual:** Outside the stadium, the line of Vanguard Repo-Trucks suddenly stop their aggressive advance. Their high-beam headlights sweep the perimeter, but their dashboard thermal screens (shown inset) all simultaneously flatline to static.
-**AXEL (CAPTION):** The heavy copper frequency bounces off the stadium concrete. In an instant, four thousand human souls vanish from Vanguard's ledger.
+**Panel 08**
+AXEL: (Caption) Back past the marina. Same dock lines. Same bare slips. The LeMans reflects in the standing water on the dock road — long car, low profile, moving south.
+AXEL: (Caption) Whoever left in a hurry knew something was coming. I'm operating on the assumption that I'll know what it is when it arrives.
+AXEL: (Caption) That assumption has never been right.
 
-**[PANEL 10 - CLOSE UP]**
-**Visual:** Director Vance, standing outside the lead Repo-Truck holding an umbrella in the humid drizzle. He stares at the stadium. He doesn't look angry; he looks fascinated. A rare expression of genuine respect.
-**VANCE (DIALOGUE):** "They built a ghost machine... Bring up the bulldozers. If we can't see them, we'll just level the building."
+**Panel 09**
+AXEL: (Caption) Blinker is on the roof of the laundromat when I get back. On the milk crate just inside the container doors — he's moved the index card, unfolded it, and set it in the sun. His good eye tracks me up the stairs. The other socket is pointed at the bay.
+AXEL: (Caption) He has opinions. He always has opinions. He expresses them through positioning and timing and the occasional strategic placement of a mango he wants someone else to cut.
+AXEL: (Caption) The mango is already cut. He cut it himself.
+AXEL: (Caption) I sit on the tar roof next to a five-foot iguana in the late afternoon heat and I read a recipe card and I try to figure out what the woman at 1408 was actually handing me.
+AXEL: (Caption) The city is quiet. The pocket has something in it. The steering wheel comes back to center on its own.
+AXEL: (Caption) That's enough for a Thursday.
 
-**[PANEL 11 - CLOSE UP]**
-**Visual:** Axel leans back in the LeMans. The Nixie Timer on the dashboard calms down, settling into a steady, safe green. The vacuum has receded.
-**AXEL (CAPTION):** We bought the North Encampment exactly one night of peace. By tomorrow, Vance will escalate. But tonight, the extraction stops.
-**AXEL (CAPTION):** I look at Jean-Pierre. He's already reviewing his schematics. We're going to need a bigger transmitter.
+---
+
+**[END OF EPISODE 20]**

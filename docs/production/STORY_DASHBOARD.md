@@ -5,10 +5,10 @@
 
 ## 📅 GLOBAL STATE
 
-*   **Current In-Universe Date:** 🟢 May 7, 1980
-*   **Active Story Volume:** Volume 04 (The Mariel Surge)
-*   **Current Episode:** Ep 21 (The Broadcast Tower) - *Analog Blackout Action Sequence*
-*   **Narrative Objective:** Establishing the resistance infrastructure and escalating the conflict with Vanguard over the refugee encampments.
+*   **Current In-Universe Date:** 🟢 May 23, 1980
+*   **Active Story Volume:** Volume 05 (The Paper Trail - CLOSED)
+*   **Current Episode:** Ep 39 (The Faraday Cage) - VOLUME FINALE
+*   **Narrative Objective:** Vanguard has been temporarily stalled after Sol broadcasted their wiretap archive on live pirate radio. The team is safe for now, re-grouping at Elio's garage.
 
 ---
 
@@ -16,21 +16,24 @@
 
 | Character | Status | Current Location | Active Arc | Dossier Link |
 | :--- | :--- | :--- | :--- | :--- |
-| **Axel** | Alive | Sector H (Radio Maria's Mast) | Amplifying the Ghost Signal | [AXEL_OFF_GRID](../lore/characters/AXEL_OFF_GRID.md) |
-| **Reya** | Active | Stiltsville (?) | Formulating system attacks | [CHARACTER_REYA](../lore/characters/CHARACTER_REYA.md) |
-| **Director Vance** | Active | The Palms Skyscraper | Escalating infrastructure war | [CHARACTER_VANCE](../lore/characters/CHARACTER_VANCE.md) |
+| **Axel** | Alive | Coconut Grove / Cinema Rouge | Casing the Mutiny Hotel loading dock and consulting blueprints | [AXEL_OFF_GRID](../lore/characters/AXEL_OFF_GRID.md) |
+| **Reya** | Active | Cinema Rouge (Booth 14) | Reviewing architectural prints for the Mutiny Hotel | [CHARACTER_REYA](../lore/characters/CHARACTER_REYA.md) |
+| **Director Vance** | Active | The Palms Skyscraper | Deploying demolition crews to secure Grid-Spike anchors | [CHARACTER_VANCE](../lore/characters/CHARACTER_VANCE.md) |
 | **Mister G** | Active | Sector H (Little Haiti) | Operating the Analog Mesh | [DOSSIER_MISTER_G](../lore/characters/DOSSIER_MISTER_G.md) |
 | **"Radio" Maria**| Active | Sector H (Radio Tower) | Broadcasting localized comms | [DOSSIER_RADIO_MARIA](../lore/characters/DOSSIER_RADIO_MARIA.md) |
-| **Doña Carmen** | Active | Versailles (Little Havana) | Managing Intel / Ventanita Anchor| [DOSSIER_DONA_CARMEN](../lore/characters/DOSSIER_DONA_CARMEN.md) |
-| **Jean-Pierre** | Active | Sector H | Monitoring Coast Guard / Straits | [DOSSIER_JEAN_PIERRE](../lore/characters/DOSSIER_JEAN_PIERRE.md) |
-| **Sol Abramowitz**| Active | Hollywood, FL | Navigating Condo Canyon / Pre-Mariel | [DOSSIER_SOL_ABRAMOWITZ](../lore/characters/DOSSIER_SOL_ABRAMOWITZ.md) |
+| **Doña Carmen** | Active | Hialeah (Cousin's House) | Safe from the Riots | [DOSSIER_DONA_CARMEN](../lore/characters/DOSSIER_DONA_CARMEN.md) |
+| **Jean-Pierre** | Active | Elio's Garage (SW 8th) | Cross-referencing physical tape and salvaged routing cards | [DOSSIER_JEAN_PIERRE](../lore/characters/DOSSIER_JEAN_PIERRE.md) |
+| **Sol Abramowitz**| Active | Elio's Garage (SW 8th) | Decoding structural plans for Vanguard's mid-city Grid network | [DOSSIER_SOL_ABRAMOWITZ](../lore/characters/DOSSIER_SOL_ABRAMOWITZ.md) |
 
 ---
 
 ## 🛠️ KEY ASSET STATUS
 
 *   **The Grid-Tape:** 📼 **REFORMATTED.** Original constraints removed. It holds the origin sequence of the 1970s land-fills.
-*   **The '78 LeMans:** 🚘 **OPERATIONAL.** Recently received a full transmission rebuild (Grand Prix donor) and new throttle body (from Dockery Salvage). Strongest it has been since Episode 1. Salt Shield installed.
+*   **The Mesh Archive:** 📻 **RESCUED.** Jean-Pierre's eighteen months of frequency logs, currently sitting in Elio's Garage.
+*   **Sol's Notebook:** 📓 **ACQUIRED.** The leather-bound ledger holding Vanguard's manual parcel acquisitions, acquired during the blackout.
+*   **Vanguard Routing Cards:** 📇 **OBTAINED.** Six cards pulled from a mid-city lockbox right before demolition.
+*   **The '78 LeMans:** 🚘 **OPERATIONAL.** Recently received a full transmission rebuild. Survived the Riot Arc and the blackout drive from Condo Canyon.
 
 ---
 
@@ -42,26 +45,37 @@ These real-world events have been deeply interconnected with the Slice Vice unde
 
 ---
 
-## ⌚ VOLUME 04 TIMELINE SYNC
+## ⌚ VOLUME 05 TIMELINE SYNC
 
 ```mermaid
 gantt
-    title VOL 4: THE MARIEL SURGE
+    title VOL 5: THE PAPER TRAIL
     dateFormat  YYYY-MM-DD
     axisFormat  %b %d
     
-    section First Wave
-    Ep 19 (The First Wave)   :done, 1980-04-15, 1d
-    Ep 20 (Tent City)        :done, 1980-05-05, 1d
-    Ep 21 (Broadcast Tower)  :active, 1980-05-07, 1d
-    
+    section The Riot Arc
+    Ep 29 (The Mesh Route)   :done, 1980-05-17, 1d
+    Ep 30 (The Ledger Run)   :done, 1980-05-18, 1d
+    Ep 31 (The Morning After):done, 1980-05-18, 1d
+
+    section The Paper Trail
+    Ep 32 (The Audit)        :done, 1980-05-19, 1d
+    Ep 33 (The Salvage Run)  :done, 1980-05-19, 1d
+    Ep 34 (The Layout)       :done, 1980-05-19, 1d
+    Ep 35 (The Service Route):done, 1980-05-19, 1d
+    Ep 36 (The Lunch Shift)  :done, 1980-05-20, 1d
+    Ep 37 (The Scattered Deck):done, 1980-05-22, 1d
+    Ep 38 (The Ghost Club)   :done, 1980-05-23, 1d
+    Ep 39 (The Faraday Cage) :done, 1980-05-23, 1d
+
     section On the Horizon
-    Vanguard Countermeasure  :crit, 1980-05-15, 5d
+    Volume 06 Planning       :crit, 1980-05-24, 3d
 ```
 
 ---
 
 ## 🎯 NEXT STEPS FOR AUTHOR
-1. Generate image assets for Episode 21 keyframes using the new script.
-2. Compile and review EP21 visual fidelity.
-3. Update `SEASON_ONE_CHRONOLOGY.md` to document the Volume 04 events.
+1. Outline the narrative themes and primary antagonist movements for Volume 06.
+2. Consider how Vanguard's exposure via Radio Maria will escalate their tactics.
+3. Plan the next phase of the UI enhancements for the web reader application.
+4. Prepare the final visual asset packaging for Season One.
